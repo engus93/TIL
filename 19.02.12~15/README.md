@@ -29,7 +29,7 @@
 
 ### 2. JavaScript
 
-> - Javascript
+> - [Javascript](/19.02.12~15/19.02.12/learned_06_javascript.md)
 >   - ECMAScript2015(ES6)
 >   - DOM(Document Object Model)
 >   - BOM(Browser Object Model)
