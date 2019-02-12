@@ -18,8 +18,8 @@
 
 >- [HTML](learned_01_html.md) / [CSS](learned_02_css.md)
 >    - [웹 접근성](learned_03_web_accessibility.md)
->    - 크로스 브라우저 이슈
->    - Media Query
+>    - [크로스 브라우징](learned_04_cross_browsing.md)
+>    - [Media Query](learned_05_media_query.md)
 >    - Grid Layout
 >    - CSS3
 >        - Animation
@@ -45,7 +45,7 @@
 >   - Redux
 >   - MobX
 
-####React의 장점
+#### React의 장점
 
 ![React-장점](https://i.ibb.co/JHFxGZM/fsd.jpg)
 
