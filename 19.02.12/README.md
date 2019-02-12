@@ -12,13 +12,12 @@
 
 ---
 
-
 ## 내용 순서
 
 ### 1. HTML
 
->- [HTML](learn_01_html.md) / CSS
->    - 웹 접근성
+>- [HTML](learned_01_html.md) / [CSS](learned_02_css.md)
+>    - [웹 접근성](learned_03_web_accessibility.md)
 >    - 크로스 브라우저 이슈
 >    - Media Query
 >    - Grid Layout
@@ -53,5 +52,5 @@
 
 ---
 
-## 오늘 피드백
+## 피드백
 
