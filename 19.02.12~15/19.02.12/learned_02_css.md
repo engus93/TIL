@@ -41,24 +41,9 @@ h1 {
 |   자바스크립트 DOM   |   노드(node), 스타일, 속성, 이벤트 등을 다룰 수 있는 다양한 기능 포함                      |
 |   자바스크립트 BOM   |   브라우저와 관련된 Window, Navigator, Location, History, Document, Screen 객체가 포함   |
 
-#### BOM (Browser Object Model)
-```
-BOM(브라우저 객체 모델) 은 브라우저와 컴퓨터 스크린에 접근 할 수 있는 객체의 모음.
-window 객체를 통해 접근 가능
-```
-
-#### window 객체모델
-- navigator : 브라우저명과 버전정보를 속성으로 가짐
-- window : 최상위 객체로, 각 프레임별로 하나씩 존재
-- document : 현재문서에 대한 정보
-- location : 현재 URL에 대한 정보, 브라우저에서 사용자가 요청하는 URL
-- history : 현재의 브라우저가 접근했던 URL history
-- screen : 브라우저의 외부환경에 대한 정보를 제공
-
-
 #### DOM (Document Object Model)
 
->DOM(문서 객체 모델) 은 HTML 문서를 노드트리로 나타내는데 그렇기 때문에 **DOM트리의 모든 노드는 객체이다.**
+- DOM(문서 객체 모델) 은 HTML 문서를 노드트리로 나타내는데 그렇기 때문에 **DOM트리의 모든 노드는 객체이다.**
 
 ```
 노드(Node)란?
@@ -66,8 +51,30 @@ window 객체를 통해 접근 가능
 ```
 
 Ex)
+
+![tree](https://t1.daumcdn.net/cfile/tistory/997FF93359CB0C530D)
+
+#### BOM (Browser Object Model)
+
 ```
-<html>은 모든 요소의 부모이며
-<head> 와 <body> 는 <html>의 자식이다
-이러한 형태를 노드트리라고 부른다
+BOM(브라우저 객체 모델) 은 브라우저와 컴퓨터 스크린에 접근 할 수 있는 객체의 모음.
+window 객체를 통해 접근 가능
 ```
+
+#### window 객체모델
+
+- navigator : 브라우저명과 버전정보를 속성으로 가짐
+- window : 최상위 객체로, 각 프레임별로 하나씩 존재
+- document : 현재문서에 대한 정보
+- location : 현재 URL에 대한 정보, 브라우저에서 사용자가 요청하는 URL
+- history : 현재의 브라우저가 접근했던 URL history
+- screen : 브라우저의 외부환경에 대한 정보를 제공
+
+Ex)
+
+> - 브라우저 창을 움직이거나 크기를 조절
+> - 브라우저 창을 새로 띄움
+> - 브라우저의 실제 정보를 반환하는 navigator 객체
+> - 사용자의 화면 해상도에 대한 정보를 반환하는 location객체
+> - 쿠키 지원
+> - XMLHttRequest와 같은 커스텀 객체

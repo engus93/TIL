@@ -30,27 +30,25 @@
 ### 2. JavaScript
 
 > - [Javascript](/19.02.12~15/19.02.12/learned_06_javascript.md)
->   - ECMAScript2015(ES6)
->   - DOM(Document Object Model)
->   - BOM(Browser Object Model)
-> - DOM API (Web API) and Concept
-> - ES5 Core Concept
-> - JavaScript의 동작원리
+> - [ECMAScript2015(ES6)](/19.02.12~15/19.02.13/learned_07_ES6.md)
+>   - [DOM(Document Object Model)](/19.02.12~15/19.02.13/learned_02_css.md)
+>   - [BOM(Browser Object Model)](/19.02.12~15/19.02.13/learned_02_css.md)
+<!-- 나중에 책 오면 다시 정리하기 -->
+<!-- > - JavaScript의 동작원리 -->
 
-### 3. Library / Framework
+<!-- > - DOM API (Web API) and Concept -->
+<!-- > - ES5 Core Concept -->
 
-> - React
-> - Vue.js
-> - Angular.js
-> - jQuery
+### 3. Library / Framework (나중에 공부하면서 정리하기)
+
+>   - [React](/19.02.12~15/19.02.13/learned_08_React.md)
+>   - [Vue.js](/19.02.12~15/19.02.13/learned_09_Vue_js.md)
+>   - [Angular.js](/19.02.12~15/19.02.13/learned_10_Angular_js.md)
+>   - [jQuery](/19.02.12~15/19.02.13/learned_11_jQuery.md)
 > - 상태 관리 라이브러리
->   - Redux
->   - MobX
-
-#### React의 장점
-
-![React-장점](https://i.ibb.co/JHFxGZM/fsd.jpg)
-
+>   - [Redux](/19.02.12~15/19.02.13/learned_12_Redux.md)
+>   - [MobX](/19.02.12~15/19.02.13/learned_13_MobX.md)
+>  * ※ [Flux](/19.02.12~15/19.02.13/learned_14_Flux.md)
 
 ---
 
