@@ -41,14 +41,19 @@
 
 ### 3. Library / Framework (나중에 공부하면서 정리하기)
 
->   - [React](/19.02.12~15/19.02.13/learned_08_React.md)
->   - [Vue.js](/19.02.12~15/19.02.13/learned_09_Vue_js.md)
->   - [Angular.js](/19.02.12~15/19.02.13/learned_10_Angular_js.md)
+>   - [React(아직)](/19.02.12~15/19.02.13/learned_08_React.md)
+>   - [Vue.js(아직)](/19.02.12~15/19.02.13/learned_09_Vue_js.md)
+>   - [Angular.js(아직)](/19.02.12~15/19.02.13/learned_10_Angular_js.md)
 >   - [jQuery](/19.02.12~15/19.02.13/learned_11_jQuery.md)
-> - 상태 관리 라이브러리
->   - [Redux](/19.02.12~15/19.02.13/learned_12_Redux.md)
->   - [MobX](/19.02.12~15/19.02.13/learned_13_MobX.md)
->  * ※ [Flux](/19.02.12~15/19.02.13/learned_14_Flux.md)
+> + 상태 관리 라이브러리
+>   + [Redux(아직)](/19.02.12~15/19.02.13/learned_12_Redux.md)
+>   + [MobX(아직)](/19.02.12~15/19.02.13/learned_13_MobX.md)
+> * [Design Pattern (아직)](/19.02.12~15/19.02.13/learned_14_Design_pattern.md)
+>   * [Flux(아직)](/19.02.12~15/19.02.13/learned_15_Flux.md)
+
+### 4. [Git](/19.02.12~15/19.02.13/learned_16_Git.md)
+
+> - 
 
 ---
 
