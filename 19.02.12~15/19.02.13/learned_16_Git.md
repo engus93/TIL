@@ -52,7 +52,16 @@ $ git merge 브랜치이름
 $ git pull origin 브랜치이름
 ```
 
-## 3. 참고 사이트
+## 3. Branch란?
+
+> 브랜치란 독립적으로 어떤 작업을 진행하기 위한 개념입니다. 필요에 의해 만들어지는 각각의 브랜치는 다른 브랜치의 영향을 받지 않기 때문에, 여러 작업을 동시에 진행할 수 있습니다. 또한 이렇게 만들어진 브랜치는 다른 브랜치와 **병합(Merge)** 함으로써, 작업한 내용을 다시 새로운 하나의 브랜치로 모을 수 있습니다.
+
+Ex) 기능별 버전별 관리에 유용
+
+![branch](https://backlog.com/git-tutorial/kr/img/post/stepup/capture_stepup1_1_2.png)
+
+## 4. 참고 사이트
 
 1. [GitHub SSH 키 생성 및 등록하여 사용하기](https://nickjoit.tistory.com/94)
 2. [[Git] Git 명령어 정리](https://medium.com/@joongwon/git-git-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%A0%95%EB%A6%AC-c25b421ecdbd)
+3. [누구나 쉽게 이해할 수 있는 Git 입문](https://backlog.com/git-tutorial/kr/stepup/stepup1_1.html)
