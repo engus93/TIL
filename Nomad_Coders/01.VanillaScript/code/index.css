@@ -1,7 +1,16 @@
 body{
-    background-color: red;
+    background-color: wheat;
+}
+
+.btn{
+    cursor: pointer;
 }
 
 h1{
     color: white;
+    transition : color .5s ease-in-out;
+}
+
+.clicked{
+    color: blue;
 }

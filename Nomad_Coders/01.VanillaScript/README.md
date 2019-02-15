@@ -110,20 +110,20 @@ title.innerHTML = "ㅋㅋㅋㅋ";
 
 Ex) 웹 화면을 클릭시 로그가 출력되는 예제
 ```
-function hanleClick(event){
+function handleClick(event){
     console.log("나와랏!")
 }
 
-window.addEventListener("click", hanleClick)
+window.addEventListener("click", handleClick)
 ```
 
-click을 할 때 감지해서 hanleClick를 실행하는 문법이다.
+click을 할 때 감지해서 handleClick를 실행하는 문법이다.
 
 **※ 주의 : hanleResize와 hanleResize()는 다르다. ()가 있다면 아마 페이지가 구성 될 때 이미 첫 실행이 되고 ()이 없다면 click을 감지하는 순간 첫 실행이 된다.**
 
 Ex) 웹 화면을 클릭시 title의 색상이 파란색이면 true 하얀색이면 false
 ```
-function hanleClick(event){
+function handleClick(event){
 
     if(title.style.color === "blue"){
         title.style.color = "white"     # 하얀색
@@ -132,7 +132,7 @@ function hanleClick(event){
     }
 }
 
-window.addEventListener("click", hanleClick)
+window.addEventListener("click", handleClick)
 ```
 
 Ex) 입력 창을 띄워 18살 보다 크면 true 작거나 같으면 false
@@ -146,4 +146,144 @@ if(age > 18){
 }
 ```
 
+### DOM if else part 1
 
+Ex) 색상을 변경하는 예제
+
+```
+const BASE_COLOR = "rgb(127, 140, 141)";    # 기본 텍스트 색상
+const OTHER_COLOR = "blue";                 # 변경 될 텍스트 색상
+
+function handleClick(event) {               # 텍스트를 클릭시 실행 될 함수
+    const currentColor = title.style.color; # 현재 텍스트의 컬러를 변수에 담는다.
+    if(currentColor === BASE_COLOR){        # 비교
+        title.style.color = OTHER_COLOR;
+    }else{
+        title.style.color = BASE_COLOR;
+    }
+}
+
+function init(){                            # 처음 실행 될때 텍스트의 색상을 초기화
+    title.style.color = BASE_COLOR;
+    title.addEventListener("click", handleClick);   # 해당 객체 클릭을 감지하면 함수 실행
+}
+
+init();
+```
+
+> 1. 처음에 웹 페이지를 읽으면서 `init()`으로 `title`의 색상을 `BASE_COLOR`로 설정이 된다.
+> 2. title을 클릭할 때마다 `title.addEventListener("click", handleClick)`이 감지하여 `handleClick`을 실행한다.
+> 3. 현재 `title`의 색상을 `currentColor`에 넣어 `BASE_COLOR`와 ㅣ비교 후 그에 따른 결과로 이동해 색상을 변경한다.
+> - BASE_COLOR의 색상을 rgb 컬러로 넣은 이유는 비교 할 때에 `currentColor`가 rgb의 형태이기에 맞춰주었다.
+
+Ex) 인터넷 연결 & 끊김 감지 예제
+
+```
+function handleOffline(){
+    console.log("Bye bye");
+}
+
+function handleOnline(){
+    console.log("Welcome back");
+}
+
+window.addEventListener("online", handleOnline); # 인터넷 연결시
+
+window.addEventListener("offline", handleOffline); # 인터넷 끊길시
+```
+
+### DOM if else part 2
+
+Ex) 클릭을 하면 클래스의 이름을 변경하여 색상 변경
+
+#### index.html
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Somthing</title>
+        <link rel = "stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1 id="title" class="btn">This work!</h1>
+        <script src="index.js"></script>
+    </body>
+</html>
+```
+
+#### index.css
+
+```
+body{
+    background-color: wheat;    # 배경 색상
+}
+
+.btn{
+    cursor: pointer;    # 커서에 포인터 주기
+}
+
+h1{
+    color: white;
+    transition : color .5s ease-in-out; # 컬러가 변경 될 때 효과
+}
+
+.clicked{
+    color: blue;    # 클릭시 변경 색상
+}
+```
+
+#### index.js
+
+```
+const CLICKED_CLASS = 'clicked';
+
+function handleClick(event) {                   # 변경 될 부분
+    const currentClass = title.className;
+    if(currentClass !== CLICKED_CLASS){
+        title.className = CLICKED_CLASS;
+    }else{
+        title.className = "";
+    }
+}                                               # 여기까지
+
+function init(){
+    title.addEventListener("click", handleClick);
+}
+
+init();
+```
+
+###### ※ 하지만 이 방법은 title의 클래스가 변경 될 때 원래 갖고 있던 클래스 또한 사라짐
+
+#### index.js (function handleClick 변경)
+
+```
+function handleClick(event) {
+    const hasClass = title.classList.contains(CLICKED_CLASS);
+    if(!hasClass){
+        title.classList.add(CLICKED_CLASS);
+    }else{
+        title.classList.remove(CLICKED_CLASS);
+    }
+}
+```
+
+> 이렇게하면 기존에 갖고 있던 클래스를 삭제하지 않고 클래스를 추가 또는 삭제가 가능하다.
+
+#### index.js (function handleClick 변경 final)
+
+```
+function handleClick(event) {
+    title.classList.toggle(CLICKED_CLASS);
+}
+```
+
+> 위에 과정을 다 이해했다면 function의 코드를 toggle이라는 함수로 한 줄로 요약 할 수 있다.
+
+### This History
+
+1. 19년 2월 14일 #1 Theory, #2 Practice (Window 함수)까지 작성
+2. 19년 2월 15일 #2 Practice 마무리
+3. 
