@@ -6,11 +6,11 @@
 
 ---
 
-## [용어 & 개념 정리](/19.02.12~15/README.md)
+## [용어 & 개념 정리](/HandBook/README.md)
 
-> #### HTML
-> #### JavaScript
-> #### Git
+> ### HTML
+> ### JavaScript
+> ### Git
  
 ## [Nomad Coders 강의 정리](/Nomad_Coders/README.md)
-> #### VanillaScript
+> ### VanillaScript
