@@ -10,8 +10,8 @@ var는 ECMAscript6 이전의 변수이고 최근에는 let과 const를 많이 �
 
 ```
 var     # 변수 값 변경 O / funtion단위의 scope
-let     # 변수 값 변경 O / {}단위의 scope
-const   # 변수 값 변경 X / {}단위의 scope
+let     # 변수 값 변경 O / {}(블록)단위의 scope
+const   # 변수 값 변경 X / {}(블록)단위의 scope
 ```
 
 출처 : [어제 오늘 내일](https://hianna.tistory.com/314)
@@ -282,12 +282,78 @@ function handleClick(event) {
 
 > 위에 과정을 다 이해했다면 function의 코드를 toggle이라는 함수로 한 줄로 요약 할 수 있다.
 
-## #3 Make your first JS App 
+## #3 Make your first JS App
 
-### 
+### Date, setInterval 함수
+
+Ex) RealTime 예제
+
+#### index.html
+
+```
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Somthing</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="js-clock">
+        <h1>00:00:00</h1>
+    </div>
+    <script src="clock.js"></script>
+</body>
+
+</html>
+```
+
+#### index.css
+
+```
+body{
+    background-color: wheat;
+}
+
+h1{
+    color: white;
+    transition : color .5s ease-in-out;
+}
+```
+
+#### clock.js
+
+```
+const clockContainer = document.querySelector(".js-clock"),
+    clockTitle = clockContainer.querySelector("h1");
+
+function getTime(){
+    const date = new Date();
+    const hours = date.getHours();      # 시간 가져오기
+    const minutes = date.getMinutes();  # 분 가져오기
+    const seconds = date.getSeconds();  # 초 가져오기
+    clockTitle.innerHTML = 
+    `${
+        hours < 10 ? `0${hours}` : hours
+    }:${
+        hours < 10 ? `0${minutes}` : minutes
+    }:${
+        seconds < 10 ? `0${seconds}` : seconds
+    }`;
+}
+
+function init(){
+    getTime();
+    setInterval(getTime, 1000); # 1초마다 getTime 실행
+}
+
+init();
+```
 
 ### This History
 
 - 19년 2월 14일 #1 Theory, #2 Practice (Window 함수)까지 작성
-- 19년 2월 15일 #2 Practice 마무리
+- 19년 2월 15일 #2 Practice 마무리, #3 Make your first JS App 작성 중
 - 
