@@ -282,8 +282,12 @@ function handleClick(event) {
 
 > 위에 과정을 다 이해했다면 function의 코드를 toggle이라는 함수로 한 줄로 요약 할 수 있다.
 
+## #3 Make your first JS App 
+
+### 
+
 ### This History
 
-1. 19년 2월 14일 #1 Theory, #2 Practice (Window 함수)까지 작성
-2. 19년 2월 15일 #2 Practice 마무리
-3. 
+- 19년 2월 14일 #1 Theory, #2 Practice (Window 함수)까지 작성
+- 19년 2월 15일 #2 Practice 마무리
+- 
