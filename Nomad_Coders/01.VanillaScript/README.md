@@ -284,76 +284,90 @@ function handleClick(event) {
 
 ## #3 Make your first JS App
 
-### Date, setInterval 함수
+### 1. [querySelector()](https://developer.mozilla.org/ko/docs/Web/API/Document/querySelector)
 
-Ex) RealTime 예제
+`Document.querySelector()`는 제공한 선택자 또는 선택자 뭉치와 일치하는 문서 내 첫 번째 Element를 반환합니다. 일치하는 요소가 없으면 `null`을 반환합니다.
 
-#### index.html
+### 2. [querySelectorAll()](https://developer.mozilla.org/ko/docs/Web/API/Document/querySelectorAll)
 
-```
-<!DOCTYPE html>
-<html>
+Document 메소드 `querySelectorAll()` 는 지정된 셀렉터 그룹에 일치하는 다큐먼트의 엘리먼트 리스트를 나타내는 정적(살아 있지 않은) `NodeList` 를 반환합니다.
 
-<head>
-    <meta charset="utf-8">
-    <title>Somthing</title>
-    <link rel="stylesheet" href="index.css">
-</head>
+### 3. [event.preventDefault()](https://developer.mozilla.org/ko/docs/Web/API/Event/preventDefault)
+이벤트를 취소할 수 있는 경우, 이벤트의 전파를 막지않고 그 이벤트를 취소합니다.
 
-<body>
-    <div class="js-clock">
-        <h1>00:00:00</h1>
-    </div>
-    <script src="clock.js"></script>
-</body>
+Ex) 뒤로가기, submit 등
 
-</html>
-```
+#### 버블링
 
-#### index.css
+> 자식 element에서 발생된 event가 부모 element순으로 전달 되는 현상
 
-```
-body{
-    background-color: wheat;
-}
+#### 캡쳐링
 
-h1{
-    color: white;
-    transition : color .5s ease-in-out;
-}
-```
+> 부모 element에서 발생된 event가 자식 element순으로 전달 되는 현상
 
-#### clock.js
+
+![](https://t1.daumcdn.net/cfile/tistory/9935C9425AE422C52C)
+
+출처 : [이벤트 버블링(bubbling)과 캡처링(capturing)](https://mygumi.tistory.com/315)
+
+### 4. [삼항 조건 연산자(conditional ternary operator)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
+
+조건부 삼항 연산자(conditional ternary operator) 는 세 개의 피연산 함수를 취할 수 있는 유일한 자바스크립트 연산자이다. 이 연산자는 `if` 문의 축약형으로 빈번히 사용된다. 
 
 ```
-const clockContainer = document.querySelector(".js-clock"),
-    clockTitle = clockContainer.querySelector("h1");
-
-function getTime(){
-    const date = new Date();
-    const hours = date.getHours();      # 시간 가져오기
-    const minutes = date.getMinutes();  # 분 가져오기
-    const seconds = date.getSeconds();  # 초 가져오기
-    clockTitle.innerHTML = 
-    `${
-        hours < 10 ? `0${hours}` : hours
-    }:${
-        hours < 10 ? `0${minutes}` : minutes
-    }:${
-        seconds < 10 ? `0${seconds}` : seconds
-    }`;
-}
-
-function init(){
-    getTime();
-    setInterval(getTime, 1000); # 1초마다 getTime 실행
-}
-
-init();
+condition ? expr1 : expr2 // 예시
 ```
+
+### 5. [Web Storage](https://developer.mozilla.org/ko/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API)
+
+#### Cookie
+- 4KB의 저장 용량, 크기가 작다. 
+- 같은 사이트내에서 둘 이상의 탭을 열었을 때, 둘 이상의 트랜젝션 추적에 어려움이 있다.
+ 
+#### Web Storage
+- 사양에 따르면 크기 제한이 없다.
+- 서버로 보내지 않는다.(원하면 명시적으로 보낼 수 있다.)
+- 유효기간이 거의 무한정하다.
+- JavaScript 객체를 `String`의 형태로 저장할 수 있다.
+- key-value 저장소이며 형태는 항상 문자열이다.
+- Storage.getItem()과 Storage.setItem()으로 관리
+
+#### sessionStorage와 localStorage
+
+- `sessionStorage` : 페이지의 세션이 유지되는동안 사용할 수 있는 각 origin별로 별도의 스토리지를 관리합니다. (페이지 리로딩 및 복원을 포함한, 브라우저가 열려있는 한 최대한 긴 시간동안)
+
+- `localStorage` : `sessionStorage`와 같은 일을 하지만, 브라우저가 닫히거나 다시 열리더라도 유지합니다.
+
+Ex) LocalStorage 와 SessionStorage 유효 범위
+![LocalStorage & SessionStorage](https://t1.daumcdn.net/cfile/tistory/1954194B4DD2759A23)
+
+### 6. [filter()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+
+> 배열에서 특정 케이스만 필터링해 추출해서 새로운 배열로 만들고 싶을 때 매우 적합한 메서드이다. 메서드 수행 중 콜백에서 `true`를 리턴하는 경우 해당 배열 요소를 추출해서 새로운 배열에 추가하고, 메서드가 종료될 때 이렇게 추출된 배열 요소만으로 이루어진 새로운 배열을 리턴한다.
+
+Ex) true 값만 cleanToDos에 담김
+```
+    const cleanToDos = toDos.filter(function (toDo) {
+        return toDo.id !== parseInt(li.id);
+    });
+```
+
+### 7. [fetch(Fetch API)](https://developer.mozilla.org/ko/docs/Web/API/Fetch_API)
+
+#### XMLHttpRequest (XHR)
+
+- 입력, 출력, 그리고 상태(state) 모두를 하나의 객체로 관리해야 했으며, 상태(state) 는 이벤트를 통해 추적해야 함
+- Promise 기반 (그리고 generator 기반) 비동기 프로그래밍 방식과 그다지 잘 어울리지 않음
+
+#### Fetch API
+
+- HTTP 요청에 최적화 되어 있고 상태도 잘 추상화 되어 있음
+- Promise를 기반으로 되어 있기때문에 상태에 따른 로직을 추가하고 처리하는데에 최적화 되어 있다.
+
+출처 : [정말 멋진 Fetch API!](http://hacks.mozilla.or.kr/2015/05/this-api-is-so-fetching/)
 
 ### This History
 
 - 19년 2월 14일 #1 Theory, #2 Practice (Window 함수)까지 작성
 - 19년 2월 15일 #2 Practice 마무리, #3 Make your first JS App 작성 중
-- 
+- 19년 2월 18일 #3 Make your first JS App
