@@ -1,16 +1,114 @@
 body{
-    background-color: wheat;
-}
-
-.btn{
-    cursor: pointer;
-}
-
-h1{
+    background-color: transparent;
     color: white;
-    transition : color .5s ease-in-out;
+    font-size: 200%; 
 }
 
-.clicked{
-    color: blue;
+body,
+.toDoInput{
+    font-family: 'Cute Font', cursive;
+}
+
+.form,
+.greetings{
+    display: none;
+}
+
+.greetings{
+    font-size: 150%;
+}
+
+.showing{
+    display: block;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }to {
+        opacity: 1;
+    }
+}
+
+.bgImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn 1s linear;
+}
+
+/* 내가 추가한 CSS */
+.toDosBtnBgColor{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 3%;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: -ms-flexbox;
+    height: calc( 100vh - 16px );
+}
+
+.clock{
+    font-size: 250%;
+}
+
+.weather{
+    position: absolute;
+    top: 3%;
+    right: 3%;
+}
+
+.toDoInput{
+    background: 0;
+    border: 0;
+    color: white;
+    text-align: center;
+    font-size: 80%;
+    outline: none;
+}
+
+input::placeholder{
+    color: white;
+    font-family: 'Cute Font', cursive;
+    text-align: center;
+    font-size: 200%;
+}
+
+h1, h4, ul{
+    margin: 10px 0 10px 0;
+}
+
+ul{
+    list-style:none;
+    padding-left:0px;
+}
+ 
+.scrollbar{
+    width: 10em;
+    max-height: 22vh;
+    margin-top: 1em;
+    overflow-y: auto;
+}
+
+.scrollbar::-webkit-scrollbar {
+    width: 1px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+    background: white;
 }
