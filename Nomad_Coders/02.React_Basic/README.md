@@ -37,6 +37,12 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 sudo apt-get update && sudo apt-get install yarn
 ```
 
+### React에 대해서
+
+※ [TIL 정리 파일로 이동](/Learned/HandBook/03.LibraryEtc/learned_08_React.md)
+
+
+
 ## The history
 
 - 19년 2월 19일 화요일 Start!

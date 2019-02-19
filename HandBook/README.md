@@ -30,7 +30,11 @@
 > - Git이란?
 > - Git 명령어
 > - Branch란?
-> - 참고 사이트
 
-## [Cors]()
-> - 
+## [Cors](05.Cors/01.Cors.md)
+> - CORS란?
+> - CORS 요청 종류
+
+## [React](03.LibraryEtc/learned_08_React.md)
+> - React란?
+> - React의 장점
