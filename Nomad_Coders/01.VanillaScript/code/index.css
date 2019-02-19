@@ -1,7 +1,7 @@
 body{
     background-color: transparent;
     color: white;
-    font-size: 200%; 
+    font-size: 200%;
 }
 
 body,
@@ -38,6 +38,7 @@ body,
     height: 100%;
     z-index: -1;
     animation: fadeIn 1s linear;
+    object-fit: cover;
 }
 
 /* 내가 추가한 CSS */

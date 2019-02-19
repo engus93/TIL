@@ -366,6 +366,30 @@ Ex) true 값만 cleanToDos에 담김
 
 출처 : [정말 멋진 Fetch API!](http://hacks.mozilla.or.kr/2015/05/this-api-is-so-fetching/)
 
+### 8. CSS
+
+#### 8 - 1. animation
+
+`keyframes `을 통해 animation을 설정하고 원하는 곳에 해당 `keyframes`를 적용시킨다. 
+
+- 예제 : [w3schools 예제](https://www.w3schools.com/css/tryit.asp?filename=trycss3_animation1)
+- 자료 : [w3schools](https://www.w3schools.com/css/css3_animations.asp)
+
+#### 8 - 2. flex
+
+flexbox 모델의 장점을 한 마디로 표현하면 **“복잡한 계산 없이 박스의 크기와 순서를 유연하게 배치할 수 있다.”** 라고 정리할 수 있습니다. 정렬, 방향, 순서, 사이즈 등을 유연하게 조절하기 때문에 별도의 분기 처리가 줄어들고, CSS만으로 다양한 레이아웃 구현이 가능합니다. 
+
+출처 : [(번역) CSS flex box 3분만에 배우기](https://joshuajangblog.wordpress.com/2016/09/19/learn-css-flexbox-in-3mins/)  
+출처 : [flexbox로 만들 수 있는 10가지 레이아웃](https://wit.nts-corp.com/2018/07/27/5274) 
+
+#### 8 - 3. object-fit
+
+사진의 크기를 지정할때 쓰는 CSS
+
+출처 : [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit)
+
+#### 8 - 4. 
+
 ### This History
 
 - 19년 2월 14일 #1 Theory, #2 Practice (Window 함수)까지 작성
