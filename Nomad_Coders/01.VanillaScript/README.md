@@ -305,7 +305,6 @@ Ex) 뒤로가기, submit 등
 
 > 부모 element에서 발생된 event가 자식 element순으로 전달 되는 현상
 
-
 ![](https://t1.daumcdn.net/cfile/tistory/9935C9425AE422C52C)
 
 출처 : [이벤트 버블링(bubbling)과 캡처링(capturing)](https://mygumi.tistory.com/315)
