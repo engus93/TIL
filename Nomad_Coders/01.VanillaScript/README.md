@@ -388,10 +388,25 @@ flexbox 모델의 장점을 한 마디로 표현하면 **“복잡한 계산 없
 
 출처 : [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit)
 
-#### 8 - 4. 
+#### 8 - 4. CSS Unit
+
+- `em` :  현재의 font-size를 정의합니다. 일례로, `body` 태그에 `em`값을 이용해 폰트 사이즈를 지정하면 모든 자식 요소들은 `body`의 폰트 사이즈에 영향을 받습니다.
+
+- `rem` : "r"은 바로 "root(최상위)"를 뜻합니다. 최상위 태그(요소)에 지정한 것을 기준으로 삼으며, 보통 최상위 태그는 `html`태그입니다.
+
+- `vh`, `vw` : `vh` 요소는 높이값의 100분의 1의 단위입니다. 예를 들어 브라우저 높이값이 900px일때 1vh는 9px이라는 뜻
+
+- `vmin`, `vmax` : vmin과 vmax는 너비값과 높이값에따라 최대, 최소값을 지정할 수 있습니다.
+
+- `ex` : ex 단위의 정의는 "현재 폰트의 x-높이값 또는 em의 절반 값"이라고 할 수 있습니다. x-높이값은 소문자 x의 높이값이기도 합니다.
+
+- `ch` : 요소 font의 문자 "0", `width: 40ch`는 40개의 문자열을 포함하고 있다는 뜻입니다.
+
+출처: [CSS Unit (CSS 7가지 단위)](https://webclub.tistory.com/356)
 
 ### This History
 
 - 19년 2월 14일 #1 Theory, #2 Practice (Window 함수)까지 작성
 - 19년 2월 15일 #2 Practice 마무리, #3 Make your first JS App 작성 중
 - 19년 2월 18일 #3 Make your first JS App
+- 19년 2월 19일 #Final

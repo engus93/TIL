@@ -4,6 +4,8 @@
 ###### 매일 매일 공부한 자료 올리기!
 ###### 2019년 02월 12일 Start!
 
+### [프로젝트 보러 가기](https://github.com/engus93/engus93.github.io)
+
 ---
 
 ## [용어 & 개념 정리](/HandBook/README.md)

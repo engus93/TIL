@@ -10,7 +10,3 @@
 > #2 Practice  
 > #3 Make your first JS App  
 
- - [완성 된 사이트 보러가기]
-
- - [노마드코더 강의 보러가기](https://academy.nomadcoders.co/p/javascript-basics-for-absolute-beginners-kr)
-
