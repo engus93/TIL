@@ -65,3 +65,4 @@ Ex) 기능별 버전별 관리에 유용
 1. [GitHub SSH 키 생성 및 등록하여 사용하기](https://nickjoit.tistory.com/94)
 2. [[Git] Git 명령어 정리](https://medium.com/@joongwon/git-git-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%A0%95%EB%A6%AC-c25b421ecdbd)
 3. [누구나 쉽게 이해할 수 있는 Git 입문](https://backlog.com/git-tutorial/kr/stepup/stepup1_1.html)
+4. [Git 공식 문서](https://git-scm.com/book/ko/v2)

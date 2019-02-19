@@ -69,7 +69,8 @@ body,
     right: 3%;
 }
 
-.toDoInput{
+.toDoInput,
+.nameInput{
     background: 0;
     border: 0;
     color: white;
@@ -87,6 +88,11 @@ input::placeholder{
 
 h1, h4, ul{
     margin: 10px 0 10px 0;
+}
+
+h1{
+    color: white;
+    text-shadow: 2px 2px 4px wheat;
 }
 
 ul{
