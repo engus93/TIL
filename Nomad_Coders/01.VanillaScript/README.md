@@ -403,7 +403,11 @@ flexbox 모델의 장점을 한 마디로 표현하면 **“복잡한 계산 없
 
 출처: [CSS Unit (CSS 7가지 단위)](https://webclub.tistory.com/356)
 
-### This History
+## CERTIFICATE OF GRADUATION
+
+![](certificate-of-completion-for-javascript.png)
+
+## This History
 
 - 19년 2월 14일 #1 Theory, #2 Practice (Window 함수)까지 작성
 - 19년 2월 15일 #2 Practice 마무리, #3 Make your first JS App 작성 중
