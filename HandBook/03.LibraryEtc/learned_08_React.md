@@ -119,6 +119,10 @@ const element = React.createElement(
 );
 ```
 
+#### 2-5. Flux
+
+> React.js에 조금 관심이 있는 분은 React.js와 Flux를 세트로 구성하는 방법에 관해 들은 적 있을 겁니다. 이것은 MVC와 같은 아키텍처를 구성하는 이야기이며 단지 Flux의 구성 요소로서 React.js를 사용하는 방법일 뿐 React.js에 포함된 것은 아님
+
 ## 참고자료
 
 1. [디자인패턴 MVC, MVP, MVVM 비교](https://beomy.tistory.com/43)
