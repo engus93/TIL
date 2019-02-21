@@ -1,4 +1,4 @@
-# React Basic
+# React Basic #02
 
 ## #2 컴포넌트 그리고 Props
 
@@ -45,7 +45,44 @@ render() {
 
 #### 3-2. state
 
-> 
+> 반대로 동적인 데이터를 다룰때에는  `state`를 사용합니다.
+
+Ex) 버튼을 클릭하면 `state`로 선언 된 변수의 값이 올라가는 예제
+
+```
+import React, { Component } from 'react';
+
+class Counter extends Component {
+  state = {
+    number: 0
+  }
+
+  handleIncrease = () => {
+    this.setState({
+      number: this.state.number + 1
+    });
+  }
+
+  handleDecrease = () => {
+    this.setState({
+      number: this.state.number - 1
+    });
+  }
+
+  render() {
+    return (
+      <div>
+        <h1>카운터</h1>
+        <div>값: {this.state.number}</div>
+        <button onClick={this.handleIncrease}>+</button>
+        <button onClick={this.handleDecrease}>-</button>
+      </div>
+    );
+  }
+}
+
+export default Counter;
+```
 
 ### 4. map()
 
@@ -66,9 +103,15 @@ arr.map(callback, [thisArg])
     
     ※ thisArg (선택항목) callback 함수 내부에서 사용 할 this 값을 설정
 
+### 5. prop-types
 
+> 컴포넌트 간에 주고 받는 props를 좀 더 세밀하게 검사함으로써 버그를 사전에 발견
+상세한 PropTypes 정의 자체만으로도 문서화의 효과(가독성 개선)
+
+※ 타입지정이나 필수로 받아야 하는 데이터를 설정 가능
+
+Ex) isRequired, strting, number 등등
 
 ### 참고 사이트
 
 - [VELOPERT.LOG - 누구든지 하는 React](https://velopert.com/3613)
-- 
