@@ -27,14 +27,6 @@ class App extends Component {
 
   // Update componentWillReceiveProps() -> shouldComponentUpdate() -> componentWillUpdate() -> render() -> component
 
-  componentWillMount() {
-    console.log("will mount");
-  }
-
-  componentDidMount() {
-    console.log("did mount");
-  }
-
   render() {
     console.log("did render");
     return (
