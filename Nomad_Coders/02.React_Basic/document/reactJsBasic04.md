@@ -94,5 +94,8 @@ export default BindTest
 
 > arrow function 의 `this` 는 부모 함수의 `this` 를 상속
 
-출처 : [Arrow function](https://poiemaweb.com/es6-arrow-function)
+출처
 
+- [Arrow function](https://poiemaweb.com/es6-arrow-function)
+
+- [리액트에서 화살표 함수(arrow function)는 선택이 아닌 필수](https://blueshw.github.io/2017/07/01/arrow-function/)
