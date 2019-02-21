@@ -4,11 +4,11 @@
 
 ### [#2 컴포넌트 그리고 Props](document/reactJsBasic02.md)
 
-<!-- ### #3 컴포넌트 Lifecycle(document/reactJsBasic03.md) -->
+### [#3 컴포넌트 Lifecycle](document/reactJsBasic03.md)
 
-<!-- ### #4 State(document/reactJsBasic04.md) -->
+### [#4 State](document/reactJsBasic04.md)
 
-<!-- ### #5 Stateless Functional Components(document/reactJsBasic05.md) -->
+### [#5 Stateless Functional Components](document/reactJsBasic05.md)
 
 <!-- ### #6 AJAX(document/reactJsBasic06.md) -->
 
