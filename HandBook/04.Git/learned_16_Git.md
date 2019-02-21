@@ -45,29 +45,31 @@ $ git branch
 -a : 로컬 원격 목록 다 보기
 ```
 
-- branch : 브랜치 이동하기
+- branch : 브랜치 생성하기
 ```
 $ git branch 브랜치명
 ```
 
-- checkout : 브랜치를 생성하면서 이동
+- checkout : 브랜치를 이동
 ```
 $ git checkout 브랜치명
+
+※ $ git checkout -b 브랜치명    // 브랜치를 생성하면서 이동
 ```
 
 - fetch : 서버에 있는 brunch 로컬로 가져오기(FETCH_HEAD로 임의지정)
 ```
-$ git fetch origin 브렌치이름
+$ git fetch origin 브렌치명
 ```
 
 - merge : bruch의 병합
 ```
-$ git merge 브랜치이름
+$ git merge 브랜치명
 ```
 
 - pull : fetch + marge의 기능
 ```
-$ git pull origin 브랜치이름
+$ git pull origin 브랜치명
 ```
 
 ## 3. Branch란?
