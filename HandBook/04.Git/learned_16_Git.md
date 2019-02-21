@@ -37,6 +37,24 @@ $ git commit -m "메세지내용"
 $ git push origin 브랜치이름
 ```
 
+- branch : 로컬에 브랜치 목록 보기 
+```
+$ git branch
+
+-r : 원격 목록 다 보기
+-a : 로컬 원격 목록 다 보기
+```
+
+- branch : 브랜치 이동하기
+```
+$ git branch 브랜치명
+```
+
+- checkout : 브랜치를 생성하면서 이동
+```
+$ git checkout 브랜치명
+```
+
 - fetch : 서버에 있는 brunch 로컬로 가져오기(FETCH_HEAD로 임의지정)
 ```
 $ git fetch origin 브렌치이름
