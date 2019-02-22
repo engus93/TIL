@@ -39,11 +39,11 @@ sudo apt-get update && sudo apt-get install yarn
 
 ### React에 대해서
 
-※ [TIL 정리 파일로 이동](../../../HandBook/03.LibraryEtc/learned_08_React.md)
+※ [TIL 정리 파일로 이동](/HandBook/03.LibraryEtc/learned_08_React.md)
 
 ### WebPack
 
-![WebPack](../../../HandBook/사진자료/WebPack.JPG)
+![WebPack](/HandBook/사진자료/WebPack.JPG)
 
 > 각각의 환경이 다른 언어들을 사용자의 브라우저에서 호환을 시켜주는 프로그램
 
