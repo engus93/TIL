@@ -10,7 +10,7 @@
 
 ### [#5 Stateless Functional Components](document/reactJsBasic05.md)
 
-<!-- ### #6 AJAX(document/reactJsBasic06.md) -->
+### [#6 AJAX](document/reactJsBasic06.md)
 
 <!-- ### #7 Finishing Up(document/reactJsBasic07.md) -->
 
@@ -19,4 +19,10 @@
 
 ## The history
 
-- 19년 2월 19일 화요일 Start!
+- 19년 2월 19일 화요일 #1 완료
+
+- 19년 2월 20일 수요일 #2 ~ 3 완료
+
+- 19년 2월 21일 목요일 #4 ~ 5 완료
+
+- 19년 2월 22일 금요일 #6 정리 중
