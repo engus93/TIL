@@ -43,11 +43,7 @@ $ git branch
 
 -r : 원격 목록 다 보기
 -a : 로컬 원격 목록 다 보기
-```
-
-- branch : 브랜치 생성하기
-```
-$ git branch 브랜치명
+-d : 브랜치 삭제
 ```
 
 - checkout : 브랜치를 이동
