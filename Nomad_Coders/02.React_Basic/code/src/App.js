@@ -31,7 +31,6 @@ class App extends Component {
     const movies = await this._callApi()
     this.setState({
       movies
-      
     })
   }
 
