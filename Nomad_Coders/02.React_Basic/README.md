@@ -1,4 +1,4 @@
-# React Basic
+# React JS Basic
 
 ### [#1 시작하기](document/reactJsBasic01.md)
 
@@ -12,13 +12,13 @@
 
 ### [#6 AJAX](document/reactJsBasic06.md)
 
-### #7 Finishing Up(document/reactJsBasic07.md)
+### #7 [Finishing Up](document/reactJsBasic07.md)
 
-### #8 Building for Production(document/reactJsBasic08.md)
+### #8 [Building for Production](document/reactJsBasic08.md)
 
 ## CERTIFICATE OF GRADUATION
 
-![](certificate-of-completion-for-reactjs.png)
+![React JS Basic](certificate-of-completion-for-reactjs.png)
 
 ## The history
 
