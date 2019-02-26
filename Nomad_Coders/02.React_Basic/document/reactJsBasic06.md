@@ -82,3 +82,7 @@ _callApi = () => {
     })
   }
 ```
+
+참고 사이트  
+- [자바스크립트 promise? 나도 써보자, 기본 개념부터~](https://www.youtube.com/watch?v=CA5EDD4Hjz4)
+- [자바스크립트 async / await? 나도 써보자, 기본 개념부터~](https://www.youtube.com/watch?v=JzXjB6L99N4)
