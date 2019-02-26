@@ -30,11 +30,55 @@ fetch('https://yts.am/api/v2/list_movies.json?quality=3D?sort_by=download_count'
 
 > **※ promise : 자바스크립트의 비동기 처리에 활용되는 객체**
 
+#### Call Back
+
+`Call Back`이란 간단하게 답신과 비슷한 말이다. 어떠한 일이 시작되어 끝날때에 알려주는 역할 같은 것이다. 마치 식당에 갔을 때에 예약을 하고 자신의 차례가 되기 전까지 다른 용무를 보다가 연락이 왔을 때에 가는 것 처럼 말이다.
+
+**Ex) Call Back Hell**
+
+```
+mysql.query( ‘select 1’ , function( res ){
+    console.log( 1 );
+
+      mysql.query( ‘select 1’ , function( res ){
+            console.log( 2 );
+
+                  mysql.query( ‘select 1’ , function( res ){
+                  console.log( 3 );
+
+            });
+
+      });
+
+});
+```
+
 #### promise
 
 > `promise`는 싱글쓰레드인 자바스크립트에서 비동기 처리를 위해서 콜백(callback)이 순차으로 진행되어야 할 처리까지 중첩시켜 표현하여 예외 처리가 어려워지고 중첩으로 인한 복잡도가 증가해서 나오게 되었다. 한마디로 promise 는 약속이다. **어떤 작업이 성공했을 때(resolve)를 promise 객체의 then() 함수에 넘겨진 파라미터(함수)를 단 한번만 호출하겠다는 약속입니다.**
+
+![](https://joshua1988.github.io/images/posts/web/javascript/promise.svg)
+
+```
+_callApi = () => {
+      return fetch('https://yts.am/api/v2/list_movies.json?quality=3D?sort_by=download_count')
+            .then(response => response.json())
+            .then(json => json.data.movies)
+            .catch(err => console.log(err))
+}
+```
 
 출처: [기본기를 쌓는 정아마추어 코딩블로그](https://jeong-pro.tistory.com/128)
 
 ### async & await
 
+`promise`의 기반이고, 목적 또한 promise 를 쉽게 쓰기 위함이라는 것을 생각하면 된다. 참고로 await 하는 것 또한 전부 Promise.resolve() 로 전달되기에, 안전하게 `promise` 를 `await` 할 수 있다.
+
+```
+  _getMovies = async () => {
+    const movies = await this._callApi()
+    this.setState({
+      movies
+    })
+  }
+```
