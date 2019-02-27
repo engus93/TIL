@@ -45,8 +45,7 @@
 > - Restfull
 
 ## [SPA(Single Page Application)](07.SPA/01.SPA.md)
+> - SPA(Single Page Application)
+> - MPA(Multi Page Application)
 
-
-
-## [Browser](06.Rest_API/01.Rest_API.md)
-
+<!-- ## [Browser](06.Rest_API/01.Rest_API.md) -->
