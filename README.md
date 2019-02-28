@@ -15,8 +15,13 @@
 > ### Library
 > ### Git
 > ### CORS
-
+> ### Rest API
+> ### SPA
  
 ## [Nomad Coders 강의 정리](/Nomad_Coders/README.md)
 > ### VanillaScript
 > ### ReactJS Basic
+
+## PPT 발표 자료
+
+> ### [SPA & MPA](https://docs.google.com/presentation/d/1C1C0rFBdZA1elzCru_7F26fzOHHDTgbxIZKANe7bGSc/edit?usp=sharing)
