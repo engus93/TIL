@@ -78,3 +78,4 @@ Ex)
 ### 6.참고
 
 1. [HTML5란 무엇인가?](https://webclub.tistory.com/491)
+2. [HTML5 기본 문법](https://poiemaweb.com/html5-syntax)
