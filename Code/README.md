@@ -1,19 +1,15 @@
-# Nomad Coders
+# Code
 
 ## 수업 커리큘럼
 
-### 1. [VanillaScript](/Nomad_Coders/01.VanillaScript/README.md)
+### 1. [VanillaScript](01.VanillaScript/README.md)
 
-> **목차**  
-> 
 > #1 Theory  
 > #2 Practice  
 > #3 Make your first JS App  
 
-### 2. [ReactJS Basic](/Nomad_Coders/02.React_Basic/README.md)
+### 2. [ReactJS Basic](02.React_Basic/README.md)
 
-> **목차**  
-> 
 > #1 시작하기  
 > #2 컴포넌트 그리고 Props  
 > #3 컴포넌트 Lifecycle  
