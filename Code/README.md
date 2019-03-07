@@ -21,5 +21,6 @@
 
 ### 03. [Responsive Web](03.Responsive/README.md)
 
-> #1 Sementic Tag
-> #2 Media Query
+> #1 Sementic Tag  
+> #2 Media Query  
+> #3 HTML5shiv & Modernizr  

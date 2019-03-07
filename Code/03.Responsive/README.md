@@ -4,6 +4,7 @@
 
 ### [#2 Media Query](document/Responsive_02.md)
 
+### [#3 HTML5shiv & Modernizr](document/Responsive_08.md)
 
 ## The history
 
