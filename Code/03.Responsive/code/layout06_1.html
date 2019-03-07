@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Layout 6</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #fffde7
+        }
+
+        #wrap {
+            width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            width: 100%;
+            height: 100px;
+            background-color: #ffe082
+        }
+
+        article {
+            width: 100%;
+            height: 300px;
+            background-color: #ffd54f
+        }
+
+        section {
+            overflow: hidden;
+            padding: 5%;
+            width: 90%;
+            background-color: #ffca28
+        }
+
+        section>div {
+            width: 18%;
+            margin: 1%;
+            float: left;
+            height: 170px;
+            border-radius: 5px;
+            background-color: #ff9800;
+        }
+
+        footer {
+            width: 100%;
+            height: 100px;
+            background-color: #ffb300
+        }
+
+        /* 화면 너비 768 ~ 1200px */
+        @media (max-width : 1230px){
+            #wrap {width: 100%}
+            section > div {width: 23%}
+            section > div:nth-child(5n) {display: none}
+        }
+
+        /* 화면 너비 480 ~ 768px */
+        @media (max-width : 768px){
+            #wrap {width: 100%}
+            section > div {width: 31.3333%}
+            section > div:nth-child(5) {display: block}
+        }
+        
+        /* 화면 너비 0 ~ 480px */
+        @media (max-width : 480px){
+            #wrap {width: 100%}
+            section > div {width: 48%}
+            section > div:nth-child(10) {display: block}
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrap">
+        <header></header>
+        <article></article>
+        <section>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+        <footer></footer>
+    </div>
+</body>
+
+</html>
