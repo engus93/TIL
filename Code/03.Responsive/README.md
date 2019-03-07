@@ -2,6 +2,8 @@
 
 ### [#1 Semantic Tag](document/Responsive_01.md)
 
+### [#2 Media Query](document/Responsive_02.md)
+
 
 ## The history
 
