@@ -8,7 +8,7 @@
 
 ---
 
-## [용어 & 개념 정리](/HandBook/README.md)
+## [용어 & 개념 정리](HandBook/README.md)
 
 > ### HTML
 > ### JavaScript
@@ -19,7 +19,7 @@
 > ### SPA
 > ### TDD
  
-## [Nomad Coders 강의 정리](Code/README.md)
+## [코딩 정리](Code/README.md)
 > ### VanillaScript
 > ### ReactJS Basic
 > ### Responsive Web
@@ -27,3 +27,4 @@
 ## PPT 발표 자료
 
 > ### [01. SPA & MPA](https://docs.google.com/presentation/d/1C1C0rFBdZA1elzCru_7F26fzOHHDTgbxIZKANe7bGSc/edit?usp=sharing)
+> ### [02. Web Design & Semantic](https://docs.google.com/presentation/d/1VfhHuRTBzVNfWJG_eQmXDqvSZ0AEiXMdqEWVNfYafYI/edit?usp=sharing)

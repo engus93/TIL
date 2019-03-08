@@ -19,8 +19,12 @@
 > #7 Finishing Up  
 > #8 Building for Production   
 
-### 03. [Responsive Web](03.Responsive/README.md)
+### 03. [Webstandard](03.WebStandard/README.md)
 
-> #1 Sementic Tag  
+> #1 
+
+### 04. [Responsive Web](04.Responsive/README.md)
+
+> #1 Semantic Tag  
 > #2 Media Query  
 > #3 HTML5shiv & Modernizr  
