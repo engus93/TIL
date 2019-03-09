@@ -25,5 +25,7 @@
 .header .header-menu {text-align: right}
 .header .header-menu a {color: #fff; padding: 10px 0px 10px 13px; display: inline-block;}
 .header .header-menu a:hover{color: #666}
-.header-tit {}
-.header-icon {}
+.header .header-tit {text-align: center;}
+.header .header-tit h1 {background-color: #4aa8d4; font-size: 28px; padding: 5px 20px 6px 20px; display: inline-block; color: #fff; margin-top: 40px; font-weight: normal; text-transform: uppercase; }
+.header .header-tit a {display: inline-block; background-color: #2698cb; font-size: 18px; color: #fff; padding: 5px 20px 6px 20px; margin-top: -5px;}
+.header .header-icon {}

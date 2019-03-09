@@ -1,6 +1,6 @@
 @charset "UTF-8";
-/* 여백 초기화 */
 
+/* 여백 초기화 */
 body, div, ul, li, dl, dt, ol, 
 h1, h2, h3, h4, h5, h6,
 input, fieldset, legend, p, select, table,
@@ -12,5 +12,5 @@ a:hover {color: #390;}
 
 /* 폰트 초기화 */
 body, input, textarea, select, button, table {
-    font-family: AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif; 
+    font-family: 'Nanum Gothic', AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif; 
     color: #222; font-size: 13px; line-height: 1.5;}
