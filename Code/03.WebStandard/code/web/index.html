@@ -1,52 +1,55 @@
 <!DOCTYPE html>
-<!-- 브라우저가 어떤 언어로 되어있냐 인식 -->
 <html lang="ko">
-
 <head>
-    <!-- 언어 설정 문서에 써 있는 = UTF-8 -->
     <meta charset="UTF-8">
-    <!-- 만든이 -->
-    <meta name="author" content="Du-veloper">
-    <!-- 검색할 때 나오는 부분 -->
+    <meta name="author" content="webstoryboy">
     <meta name="description" content="웹 표준을 준수한 사이트 예제입니다.">
-    <meta name="keywords" content="Du-veloper, 웹표준, 웹접근성, 사이트 만들기">
-    <meta name="generator" content="Visual Studio Code">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="웹표준, 웹접근성, 샘플사이트">
+    <meta name="generator" content="brackets">
     <title>WEBSTANDARD SITE</title>
-
-    <!-- CSS Style -->
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- style -->
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
 </head>
-
 <body>
+    <!-- 스킵 내비게이션 -->
+    <div id="skip">
+        <a rel="bookmark" href="#cont_nav">전체 메뉴 바로가기</a>
+        <a rel="bookmark" href="#cont_ban">배너 영역 바로가기</a>
+        <a rel="bookmark" href="#cont_cont">컨텐츠 영역 바로가기</a>
+    </div>
+    <!-- //스킵 내비게이션 -->
+    
     <div id="wrap">
         <div id="header">
             <div class="container">header</div>
         </div>
         <!-- //header -->
+        
         <div id="contents">
-            <div id="cont-nav">
-                <div class="container">cont-nav</div>
+            <div id="cont_nav">
+                <div class="container">cont_nav</div>
             </div>
-            <!-- //cont-nav -->
-            <div id="cont-tit">
-                <div class="container">cont-tit</div>
+            <!-- //cont_nav -->
+            <div id="cont_tit">
+                <div class="container">cont_tit</div>
             </div>
-            <!-- //cont-tit -->
-            <div id="cont-ban">
-                <div class="container">cont-ban</div>
+            <!-- //cont_tit -->
+            <div id="cont_ban">
+                <div class="container">cont_ban</div>
             </div>
-            <!-- //cont-ban -->
-            <div id="cont-cont">
-                <div class="container">cont-cont</div>
+            <!-- //cont_ban -->
+            <div id="cont_cont">
+                <div class="container">cont_cont</div>
             </div>
-            <!-- //cont-cont -->
+            <!-- //cont_cont -->
         </div>
         <!-- //contents -->
+        
         <div id="footer">
-                <div class="container">footer</div>
+            <div class="container">footer</div>
         </div>
         <!-- //footer -->
     </div>
