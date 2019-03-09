@@ -7,7 +7,7 @@
 
 /* 레이아웃 */
 #wrap {width: 100%; }
-#header {width: 100%; height: 325px; background: #111; }
+#header {width: 100%; height: 325px; background: url(../img/header_bg.jpg) center top repeat-x;}
 #contents {width: 100%; height: 800px; background: #222;}
 #footer {width: 100%; height: 200px; background: #111;}
 
@@ -18,4 +18,12 @@
 #cont_cont {width: 100%; height: 200px; background: #666;}
 
 /* 컨테이너 */
-.container {width: 990px; margin: 0 auto; height: inherit; background: rgba(255,255,255,0.3);}
+.container {width: 990px; margin: 0 auto; height: inherit; /* background: rgba(255,255,255,0.3); */ }
+
+/* 헤더 */
+.header { }
+.header .header-menu {text-align: right}
+.header .header-menu a {color: #fff; padding: 10px 0px 10px 13px; display: inline-block;}
+.header .header-menu a:hover{color: #666}
+.header-tit {}
+.header-icon {}
