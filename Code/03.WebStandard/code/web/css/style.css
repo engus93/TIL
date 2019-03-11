@@ -89,7 +89,7 @@
 
 .cont .column .ico_img {display: block; width: 60px; height: 60px; background: url(../img/icon.png) no-repeat; position: absolute; left: 0; top: 0;}
 .cont .column .ico_tit {padding-left: 70px; font-size: 16px; color: #2c94c4}
-.cont .column .ico_desc {padding-left: 70px; border-bottom: 1px solid #d0d0d0; padding-bottom: 15px}
+.cont .column .ico_desc {padding-left: 70px; border-bottom: 1px solid #d0d0d0; padding-bottom: 15px; margin-bottom: 15px;}
 
 .cont .col1 .ico_img {background-position: 0px -240px;}
 .cont .col2 .ico_img {background-position: 0px -300px;}
@@ -104,3 +104,11 @@
 .cont .col4 .ico_img:hover {background-position: -60px -420px;}
 .cont .col5 .ico_img:hover {background-position: -60px -480px;}
 .cont .col6 .ico_img:hover {background-position: -60px -540px;}
+
+/* 게시판 */
+.notice {position: relative;}
+.notice h4 {font-size: 14px; color: #0093bd; padding-bottom: 3px; font-weight: bold;}
+.notice ul {}
+.notice ul li {overflow: hidden; text-overflow: ellipsis; white-space: nowrap; background: url(../img/dot.gif) no-repeat 0 8px; padding-left: 8px}
+.notice ul li a {font-size: 12px;}
+.notice a.more {position: absolute; right: 0; top: 0; display: block; background: url(../img/icon.png) no-repeat -150px -90px; width: 17px; height: 17px;}
