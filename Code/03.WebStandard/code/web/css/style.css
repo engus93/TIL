@@ -108,7 +108,14 @@
 /* 게시판 */
 .notice {position: relative;}
 .notice h4 {font-size: 14px; color: #0093bd; padding-bottom: 3px; font-weight: bold;}
-.notice ul {}
 .notice ul li {overflow: hidden; text-overflow: ellipsis; white-space: nowrap; background: url(../img/dot.gif) no-repeat 0 8px; padding-left: 8px}
 .notice ul li a {font-size: 12px;}
 .notice a.more {position: absolute; right: 0; top: 0; display: block; background: url(../img/icon.png) no-repeat -150px -90px; width: 17px; height: 17px;}
+
+/* 게시판2 */
+.notice2 {position: relative; margin-top: 15px;}
+.notice2 h4 {font-size: 14px; color: #0093bd; padding-bottom: 3px; font-weight: bold;}
+.notice2 li {overflow: hidden; background: url(../img/dot.gif) no-repeat 0 8px; padding-left: 8px}
+.notice2 li a {float: left; width: 65%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.notice2 li span {float: right; width: 30%; text-align: right;}
+.notice2 a.more {position: absolute; right: 0; top: 0; display: block; background: url(../img/icon.png) no-repeat -150px -90px; width: 17px; height: 17px;}
