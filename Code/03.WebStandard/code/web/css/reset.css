@@ -15,6 +15,9 @@ body, input, textarea, select, button, table {
     font-family: 'Nanum Gothic', AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif; 
     color: #222; font-size: 13px; line-height: 1.5;}
 
+/* 블릿기호 초기화 */
+dl,ul,li,ol,menu {list-style: none;}
+
 /* IR 효과 */
 /* 1. 의미있는 이미지의 대체 텍스트를 제공하는 경우 */
 .ir_pm {display: block; overflow: hidden; font-size: 0; line-height: 0; text-indent: -9999px;}
