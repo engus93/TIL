@@ -253,3 +253,9 @@
 .footer li {display: inline; padding: 0 7px 0 10px; position: relative;}
 .footer li::before {content: ''; width: 1px; height: 12px; background: #ccc; position: absolute; left: 0; top: 2px;}
 .footer li:first-child::before {width: 0; height: 0;}
+
+/* 레이어 팝업 */
+#layer {display: none; position: fixed; left: 50px; top: 50px; width: 700px; border: 10px solid #dceff7; box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);}
+#layer img {width: 100%; display: block;}
+#layer .close {position: absolute; right: 20px; top: 2px; background: #0093bd; padding: 1px 6px; color: #fff;}
+#layer .close:hover {text-decoration: underline;}
