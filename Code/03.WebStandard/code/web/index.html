@@ -270,10 +270,10 @@
                             <!-- //로그인 -->
                             <!-- 팝업 -->
                             <div class="popup mt15">
-                                <h4>Advertisemnet</h4>
+                                <h4>Advertisement</h4>
                                 <ul>
                                     <li class="layer"><a href="#"><img src="img/sban07.jpg" alt="이미지1"></a></li>
-                                    <li><a href="#"><img src="img/sban08.jpg" alt="이미지2"></a></li>
+                                    <li class="window"><a href="#"><img src="img/sban08.jpg" alt="이미지2"></a></li>
                                     <li class="last"><a href="#"><img src="img/sban09.jpg" alt="이미지3"></a></li>
                                 </ul>
                             </div>
@@ -471,6 +471,12 @@
     <script type="text/javascript" src="js/slick.min.js"></script>
 
     <script type="text/javascript">
+        //윈도우 팝업 
+        $(".window").click(function(e){
+            e.preventDefault();
+            window.open("sample_popup.html", "popup01", "width=800, height=590, left=50, top=50, scrollbars=0, toolbar=0, menubar=0");
+        })
+
         // 레이어 팝업
         $(".layer").click(function(e){
             e.preventDefault();
