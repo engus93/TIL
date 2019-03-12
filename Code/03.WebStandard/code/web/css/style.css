@@ -176,7 +176,23 @@
 .notice4 h4 {font-size: 14px; color: #0093bd; border-bottom: 1px solid #ccc; font-weight: 700; padding: 8px 10px;}
 .notice4 h4 em {color: #cf3292;}
 .notice4 ul {padding: 10px;}
-.notice4 li {overflow: hidden; background: url(img/dot.gif) no-repeat 0px 8px; padding-left: 8px; padding-bottom: 2px; }
+.notice4 li {overflow: hidden; background: url(../img/dot.gif) no-repeat 0px 8px; padding-left: 8px; padding-bottom: 2px; }
 .notice4 li a {float: left; width: 60%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
 .notice4 li span {float: right; width: 30%; text-align: right;}
 .notice4 a.more {position: absolute; right: 9px; top: 9px;}
+
+/* 갤러리 */
+.gallery {position: relative; border: 1px solid #ccc; height: 254px; overflow: hidden;}
+.gallery h4 {font-size: 14px; color: #0093bd; border-bottom: 1px solid #ccc; padding: 10px 0 8px 11px; font-weight: bold;}
+.gallery .gellery_btn {position: absolute; right: 5px; top: 7px;}
+.gallery .gellery_btn ul {overflow: hidden;}
+.gallery .gellery_btn li {float: left; margin: 1px 2px}
+.gallery .gellery_btn li a {display: block; width: 23px;height: 23px; background: url(../img/icon.png) no-repeat}
+.gallery .gellery_btn li.gb_icon1 a {background-position: -150px -120px}
+.gallery .gellery_btn li.gb_icon2 a {background-position: -150px -143px}
+.gallery .gellery_btn li.gb_icon3 a {background-position: -150px -166px}
+.gallery .gellery_btn li.gb_icon4 a {background-position: -150px -189px}
+.gallery .gellery_btn li.gb_icon1 a:hover {background-position: -173px -120px}
+.gallery .gellery_btn li.gb_icon2 a:hover {background-position: -173px -143px}
+.gallery .gellery_btn li.gb_icon3 a:hover {background-position: -173px -166px}
+.gallery .gellery_btn li.gb_icon4 a:hover {background-position: -173px -189px}
