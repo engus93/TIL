@@ -352,14 +352,14 @@
                                         </ul>
                                     </li>
                                     <li><a href="#">공지사항2</a>
-                                        <ul style="display: none">
+                                        <ul>
                                             <li><a href="#">두 번째 공지사항 탭 메뉴 테스트 목록입니다.</a></li>
                                             <li><a href="#">두 번째 공지사항 탭 메뉴 테스트 목록입니다.</a></li>
                                             <li><a href="#">두 번째 공지사항 탭 메뉴 테스트 목록입니다.</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="#">공지사항3</a>
-                                        <ul style="display: none">
+                                        <ul>
                                             <li><a href="#">세 번째 공지사항 탭 메뉴 테스트 목록입니다.</a></li>
                                             <li><a href="#">세 번째 공지사항 탭 메뉴 테스트 목록입니다.</a></li>
                                             <li><a href="#">세 번째 공지사항 탭 메뉴 테스트 목록입니다.</a></li>
@@ -453,13 +453,26 @@
     <script type="text/javascript" src="js/slick.min.js"></script>
 
     <script type="text/javascript">
+        //탭메뉴
+        let $tab_list = $(".tab_menu");
+        
+        $tab_list.find("ul ul").hide();
+        $tab_list.find("li.active > ul").show();
+
+        function tabMenu(e){
+            e.preventDefault();
+            let $this = $(this);
+            $this.next("ul").show().parent("li").addClass("active").siblings("li").removeClass("active").find(">ul").hide();
+        }
+        
+        $tab_list.find("ul>li>a").click(tabMenu).focus(tabMenu);
+
         //배너
-        //html 마크업 세팅 -> css 연동 -> 제이쿼리 연동 --> 제이쿼리 호출
         $(".ban").slick({
             infinite: true,
             slidesToShow: 3,
             slidesToScroll: 1,
-            autoplay : true,
+            autoplay : true, 
             autoplaySpeed : 3000,
             dots : true,
         });
