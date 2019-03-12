@@ -60,24 +60,39 @@
 .tit h2 {font-size: 40px; text-align: center; padding: 5px 0; letter-spacing: 2px; color: #2c94c4; font-family: 'Nanum Brush Script', cursive;}
 .tit .btn {position: absolute; top: 5px; right: 0; width: 60px; height: 60px; background: url(../img/icon.png) no-repeat 0 -600px;}
 .tit .btn.on {background-position: 0 -660px}
+
 /* 배너 */
-.ban {position: relative; padding: 24px 0 18px;}
+/* .ban {position: relative; padding: 24px 0 18px;}
 .ban a.prev {position: absolute; left: -80px; top: 60px; width: 43px; height: 43px; background:url(../img/icon.png) no-repeat -150px 0;}
 .ban a.next {position: absolute; right: -80px; top: 60px; width: 43px; height: 43px; background:url(../img/icon.png) no-repeat -150px -43px;}
 .ban a.prev:hover {background-position: -193px 0;}
 .ban a.next:hover {background-position: -193px -43px;}
-
 .ban ul {overflow: hidden;}
 .ban ul li {float: left; width: 330px;}
-.ban ul li:nth-last-child(2) {text-align: center} /* IE9부터 적용 */
-.ban ul li:last-child {text-align: right;} /* IE9부터 적용 */
+.ban ul li:nth-last-child(2) {text-align: center}
+.ban ul li:last-child {text-align: right;}
 .ban ul li .ban_img1 {text-align: left;}
 .ban ul li .ban_img2 {text-align: center;}
 .ban ul li .ban_img3 {text-align: right;}
 .ban ul li img {border: 4px solid #dcdcdc}
-.ban ul li img:hover {border-color: #98bcdc}
+.ban ul li img:hover {border-color: #98bcdc}  */
 
-/* 컨텐츠 */
+/* 슬릭 배너 */
+.ban {position: relative; padding: 24px 0 40px;}
+.ban .slick-arrow {cursor: pointer;}
+.ban .slick-prev {position: absolute; left: -80px; top: 80px; width: 43px; height: 43px; background:url(../img/icon.png) no-repeat -150px 0; text-indent: -9999px;}
+.ban .slick-next {position: absolute; right: -80px; top: 80px; width: 43px; height: 43px; background:url(../img/icon.png) no-repeat -150px -43px; text-indent: -9999px;}
+.ban .slick-prev:hover {background-position: -193px 0;}
+.ban .slick-next:hover {background-position: -193px -43px;}
+.ban img {border: 4px solid #dcdcdc}
+.ban img:hover {border-color: #98bcdc}
+.ban .slick-slide {margin: 10px;}
+.ban .slick-dots {position: absolute; bottom: 15px; display: block; width: 100%; text-align: center;}
+.ban .slick-dots li {display: inline-block; width: 15px; height: 15px; margin: 5px;}
+.ban .slick-dots li button {font-size: 0; line-height: 0; display: block; width: 15px; height: 15px; cursor: pointer; background: #5dbfeb; border-radius: 50%;}
+.ban .slick-dots li.slick-active button {background: #2b91c8;}
+
+/* 컨텐츠 width = padding + border + margin */
 .cont {overflow: hidden; padding-top: 30px}
 .cont .column {float: left; width: 289px; height: 363px; margin: 0 30px 30px 0; padding-right: 30px; position: relative;}
 .cont .col1 {border-right: 1px solid #c8c8c8}

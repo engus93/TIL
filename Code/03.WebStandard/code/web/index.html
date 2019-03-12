@@ -12,6 +12,7 @@
     <!-- style  -->
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
 
     <!-- 웹 폰트 -->
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
@@ -126,13 +127,25 @@
             <div id="cont_ban">
                 <div class="container">
                     <div class="ban">
-                        <a href="#" class="prev"><span class="ir_pm">이전 이미지</span></a>
+
+                        <!-- <a href="#" class="prev"><span class="ir_pm">이전 이미지</span></a>
                         <ul>
                             <li class="ban_img1"><a href="#"><img src="img/banner_link1.jpg" alt="웹 표준 지침서 보기"></a></li>
                             <li class="ban_img2"><a href="#"><img src="img/banner_link2.jpg" alt="CSS 버튼 만들기"></a></li>
                             <li class="ban_img3"><a href="#"><img src="img/banner_link3.jpg" alt="로그인 폼 만들기"></a></li>
                         </ul>
-                        <a href="#" class="next"><span class="ir_pm">다음 이미지</span></a>
+                        <a href="#" class="next"><span class="ir_pm">다음 이미지</span></a> -->
+
+                        <div><a href="#"><img src="img/banner_link1.jpg" alt="웹 표준 지침서 보기"></a></div>
+                        <div><a href="#"><img src="img/banner_link2.jpg" alt="CSS 버튼 만들기"></a></div>
+                        <div><a href="#"><img src="img/banner_link3.jpg" alt="로그인 폼 만들기"></a></div>
+                        <div><a href="#"><img src="img/banner_link1.jpg" alt="웹 표준 지침서 보기"></a></div>
+                        <div><a href="#"><img src="img/banner_link2.jpg" alt="CSS 버튼 만들기"></a></div>
+                        <div><a href="#"><img src="img/banner_link3.jpg" alt="로그인 폼 만들기"></a></div>
+                        <div><a href="#"><img src="img/banner_link1.jpg" alt="웹 표준 지침서 보기"></a></div>
+                        <div><a href="#"><img src="img/banner_link2.jpg" alt="CSS 버튼 만들기"></a></div>
+                        <div><a href="#"><img src="img/banner_link3.jpg" alt="로그인 폼 만들기"></a></div>
+
                     </div>
                 </div>
             </div>
@@ -437,9 +450,22 @@
 
     <!-- script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+
     <script type="text/javascript">
+        //배너
+        //html 마크업 세팅 -> css 연동 -> 제이쿼리 연동 --> 제이쿼리 호출
+        $(".ban").slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay : true,
+            autoplaySpeed : 3000,
+            dots : true,
+        });
+
         // 버튼을 클릭하면 전체 메뉴를 보이게 한다.
-        $(".tit .btn").click(function(e){
+        $(".tit .btn").click(function (e) {
             e.preventDefault();
             // $("#cont_nav").css("display", "block")
             // $("#cont_nav").show();
