@@ -21,8 +21,6 @@
 
 ### 03. [Webstandard](03.WebStandard/README.md)
 
-> #1 
-
 ### 04. [Responsive Web](04.Responsive/README.md)
 
 > #1 Semantic Tag  
