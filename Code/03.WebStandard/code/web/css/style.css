@@ -11,7 +11,7 @@
 #footer {border-top: 1px solid #eee}
 
 /* 컨텐츠 레이아웃 */
-#cont_nav {background-color: #f6fdff;}
+#cont_nav {background-color: #f6fdff; display: none;}
 #cont_tit {background-color: #EAF7FD;}
 #cont_ban {background-color: #dceff7;}
 #cont_cont {background: #f6fdff;}
@@ -59,7 +59,7 @@
 .tit {position: relative;}
 .tit h2 {font-size: 40px; text-align: center; padding: 5px 0; letter-spacing: 2px; color: #2c94c4; font-family: 'Nanum Brush Script', cursive;}
 .tit .btn {position: absolute; top: 5px; right: 0; width: 60px; height: 60px; background: url(../img/icon.png) no-repeat 0 -600px;}
-
+.tit .btn.on {background-position: 0 -660px}
 /* 배너 */
 .ban {position: relative; padding: 24px 0 18px;}
 .ban a.prev {position: absolute; left: -80px; top: 60px; width: 43px; height: 43px; background:url(../img/icon.png) no-repeat -150px 0;}

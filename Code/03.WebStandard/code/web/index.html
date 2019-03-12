@@ -434,6 +434,22 @@
         <!-- //footer -->
     </div>
     <!-- //wrap -->
+
+    <!-- script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        // 버튼을 클릭하면 전체 메뉴를 보이게 한다.
+        $(".tit .btn").click(function(e){
+            e.preventDefault();
+            // $("#cont_nav").css("display", "block")
+            // $("#cont_nav").show();
+            // $("#cont_nav").fadeIn();
+            // $("#cont_nav").slideDown();
+            // $("#cont_nav").toggle();
+            $("#cont_nav").slideToggle(250);
+            $(".tit .btn").toggleClass("on");
+        })
+    </script>
 </body>
 
 </html>
