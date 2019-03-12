@@ -8,7 +8,7 @@
 #wrap {}
 #header {height: 325px; background: url(../img/header_bg.jpg) center top repeat-x;}
 #contents {}
-#footer {height: 200px; background: #111;}
+#footer {border-top: 1px solid #eee}
 
 /* 컨텐츠 레이아웃 */
 #cont_nav {background-color: #f6fdff;}
@@ -199,7 +199,7 @@
 .gellery .gellery_img img {width: 100%;}
 
 /* 로그인 */
-#login_form {background: #f2f4f5; padding: 15px;}
+#login-wrap {background: #f2f4f5; padding: 15px;}
 .login_header {overflow: hidden; font-size: 12px; height: 30px;}
 .login_header .lh_check {float: left; padding-right: 15px;}
 .login_header .lh_check .input_check {vertical-align: -2px}
@@ -210,7 +210,20 @@
 .login_content .input_text{width: 182px;height: 16px;padding: 2px 5px; border: 1px solid #bebebe; margin-bottom: 3px; background: #fff;}
 .login_footer li {display: inline;}
 .login_footer li a {font-size: 12px;}
-
 .login_footer {margin-top: 5px;}
 .login_footer li {display: inline;}
 .login_footer li a {font-size: 12px;}
+
+/* 팝업 */
+.popup h4 {font-size: 14px; color: #0093bd; padding-bottom: 4px; font-weight: 700;}
+.popup ul {overflow: hidden;}
+.popup li {float: left; width: 93px; margin-right: 5px;}
+.popup li.last {margin-right: 0;}
+.popup li img {width: 100%;}
+
+/* 푸터 */
+.footer {padding: 25px 0; text-align: center;}
+.footer ul {margin-bottom: 20px;}
+.footer li {display: inline; padding: 0 7px 0 10px; position: relative;}
+.footer li::before {content: ''; width: 1px; height: 12px; background: #ccc; position: absolute; left: 0; top: 2px;}
+.footer li:first-child::before {width: 0; height: 0;}
