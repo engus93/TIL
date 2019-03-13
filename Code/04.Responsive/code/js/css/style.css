@@ -280,7 +280,7 @@ body {background: url(../img/header_bg.jpg) repeat-x center top;}
 
 
 
-/* -------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
 
 /* MediaQuery */
 /* 화면 너비 0 ~ 1220px */
@@ -308,7 +308,7 @@ body {background: url(../img/header_bg.jpg) repeat-x center top;}
     .nav > div li {width: 33.3333%;}
     .nav > div:last-child li {width: 33.3333%;}
     .nav > div ol {margin-bottom: 10px;}
-}
+} 
 
 /* 화면 너비 0 ~ 768px */
 @media (max-width: 768px) {
@@ -325,6 +325,18 @@ body {background: url(../img/header_bg.jpg) repeat-x center top;}
 
     .nav > div li {width: 50%;}
     .nav > div:last-child li {width: 50%;}
+
+    .column.col1 .col_tit {display: none;}
+    .column.col1 .col_desc {display: none;}
+    .column.col1 {padding: 0; border-bottom: 0;}
+    .column.col1 .menu ul {overflow: hidden;}
+    .column.col1 .menu li {float: left; width: 33.3333%; border-right: 1px solid #dbdbdb; text-align: center; box-sizing: border-box;}
+    .column.col1 .menu li:nth-child(3n) {border-right: 0;}
+    .column.col1 .menu li a {color: #fff; text-shadow: 0 0 5px rgba(0, 0, 0, 0.7)}
+    .column.col1 .menu li a:hover {box-shadow: none; background: rgba(36, 130, 174, 0.3);}
+    .column.col1 .menu li a i{display: none;}
+    .column.col2 {background: #fff;}
+    .column.col4 {border-top: 1px solid #dbdbdb;}
 }
 
 /* 화면 너비 0 ~ 480px */
