@@ -278,6 +278,23 @@ body {background: url(../img/header_bg.jpg) repeat-x center top;}
     position: absolute; right: 10px; top: 15px;
 }
 
+/* 게시판 1 */
+.notice1 {}
+.notice1 h5 {font-size: 14px; color: #2f7fa6;}
+.notice1 li {position: relative; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; padding-left: 8px;}
+.notice1 li::before {
+    content: '';
+    width: 3px; height: 3px;
+    border-radius: 50%;
+    background: #449ce2;
+    position: absolute; left: 0; top: 8px;
+}
+
+
+
+
+
+
 
 
 /* -------------------------------------------------------------------------------- */
