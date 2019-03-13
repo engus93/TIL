@@ -242,8 +242,11 @@ body {background: url(../img/header_bg.jpg) repeat-x center top;}
         0 0 0 100px rgba(0, 0, 0, 0.1) inset;
 }
 
-/* 컨텐츠 */
-.column {text-align: center; padding: 15px; border-bottom: 1px solid #dbdbdb}
+/* 컨텐츠 영역 */
+.column {padding: 15px; border-bottom: 1px solid #dbdbdb}
+.column .col_tit {font-size: 20px; color: #2f7fa6; padding-bottom: 5px;}
+.column .col_desc {border-bottom: 1px dashed #dbdbdb; padding-bottom: 15px; margin-bottom: 15px; color: #878787; line-height: 18px;}
+
 .column.col1 {}
 .column.col2 {}
 .column.col3 {border: 0;}
