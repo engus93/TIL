@@ -1,0 +1,17 @@
+/* 레이아웃 */
+#header {background: url(../img/header_bg.jpg) repeat-x center top;}
+
+/* 컨테이너 */
+.container {width: 1200px; margin: 0 auto; background: rgba(0, 0, 0, 0.3)}
+
+/* 헤더 */
+.header {height: 327px;}
+.header .header_menu {text-align: right;}
+.header .header_menu a {color: #fff; padding: 8px 0 6px 10px; display: inline-block; transition: color 0.3s ease; font-family: 'Abel', sans-serif;}
+.header .header_menu a:hover {color: #ccc;}
+
+/* MediaQuery */
+@media (max-width: 1220px){
+    .container {width: 100%;}
+    .row {padding: 0 15px;}
+}
