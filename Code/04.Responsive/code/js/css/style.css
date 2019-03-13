@@ -9,7 +9,7 @@
 .container {
     width: 1200px;
     margin: 0 auto;
-    background: rgba(0, 0, 0, 0.3)
+    /* background: rgba(0, 0, 0, 0.3); */
 }
 
 /* 헤더 */
