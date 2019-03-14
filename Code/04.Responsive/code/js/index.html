@@ -389,7 +389,7 @@
         <div class="container">
             <div class="row">
                 <div class="footer">
-                    <ul>
+                    <ul> 
                         <li><a href="#">사이트 도움말</a></li>
                         <li><a href="#">사이트 이용약관</a></li>
                         <li><a href="#">사이트 운영원칙</a></li>
@@ -414,7 +414,30 @@
     <script src="js/modernizr-custom.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/lightgallery.min.js"></script>
+    <script src="js/lightgallery-all.min.js"></script>
     <script>
+        // 타이틀 접기 펼치기
+        $(".btn").click(function(e){
+            e.preventDefault();
+            $(".nav").slideToggle();
+            $(".btn").toggleClass("open");
+
+            if($(".btn").hasClass("open")){
+                // if has open
+                $(".btn").find("i").attr("class", "fa fa-angle-up");
+            }else{
+                // dosen't have
+                $(".btn").find("i").attr("class", "fa fa-angle-down");
+            }
+        })
+
+        $(window).resize(function(){
+            let wWidth = $(window).width();
+            if(wWidth < 600){
+                $(".nav").removeAttr("style");
+            }
+        })
+
         //라이트박스
         $(".lightbox").lightGallery({
             thumbnail: true,
