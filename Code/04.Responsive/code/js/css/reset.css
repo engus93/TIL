@@ -46,8 +46,8 @@ h1, h2, h3, h4, h5, h6 {
 /* 버튼 초기화 */
 button {border: 0;}
 
-/* 반응형 이미지 */
-img {width: 100%;}
+/* 반응형 이미지,비디오 */
+img,video {width: 100%;}
 
 /* clearfix */
 .clearfix {*zoom: 1;} /* IE 7 ~ 9 까지 지원 */
