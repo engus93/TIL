@@ -318,14 +318,33 @@ body {background: url(../img/header_bg.jpg) repeat-x center top;}
 .blog1 img {width: 100%;}
 .blog1 .img-retina {display: none;}
 
-
-/* 블로그2 */
-
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
        only screen and (min-device-pixel-ratio: 1.5),
        only screen and (min-resolution: 1.5dppx) {
         .blog1 .img-retina {display: initial;}
         .blog1 .img-normal {display: none;}
+}
+
+/* 블로그2 */
+.blog2 h5 {color: #fff; text-align: center; padding: 30px 30px; text-transform: uppercase;}
+.blog2 p {padding-top: 5px;}
+.blog2 .img-retina {
+    background-image: url(../img/blog4_@1.jpg);
+    background-size: cover;
+}
+
+/* 2배 */
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+       only screen and (min-device-pixel-ratio: 2),
+       only screen and (min-resolution: 2dppx) {
+        .blog2 .img-retina {background-image: url(../img/blog4_@2.jpg);}
+}
+
+/* 3배 */
+@media only screen and (-webkit-min-device-pixel-ratio: 3),
+       only screen and (min-device-pixel-ratio: 3),
+       only screen and (min-resolution: 3dppx) {
+        .blog2 .img-retina {background-image: url(../img/blog4_@3.jpg);}
 }
 
 /* -------------------------------------------------------------------------------- */

@@ -18,10 +18,12 @@
 > ### Rest API
 > ### SPA
 > ### TDD
+> ### Methodology
  
 ## [코딩 정리](Code/README.md)
 > ### VanillaScript
 > ### ReactJS Basic
+> ### Web Standard
 > ### Responsive Web
 
 ## PPT 발표 자료
