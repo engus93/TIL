@@ -470,6 +470,12 @@ body {background: url(../img/header_bg.jpg) repeat-x center top;}
     .nav > div li {width: 33.3333%;}
     .nav > div:last-child li {width: 33.3333%;}
     .nav > div ol {margin-bottom: 10px;}
+
+    /* 오른쪽 사이드 이미지 미디어 쿼리 */
+    #cont_right {overflow: hidden;}
+    #cont_right .column {float:  left; width: 33.3333%; box-sizing: border-box;}
+    #cont_right .column.col7 {border-right: 1px solid #dbdbdb; border-bottom: 0;}
+    #cont_right .column.col8 {border-right: 1px solid #dbdbdb; border-bottom: 0;}
 } 
 
 /* 화면 너비 0 ~ 768px */
@@ -500,12 +506,19 @@ body {background: url(../img/header_bg.jpg) repeat-x center top;}
     .column.col2 {background: #fff;}
     .column.col4 {border-top: 1px solid #dbdbdb;}
 
+    #cont_right .column {width: 50%;}
+    #cont_right .column.col8 {border-right: 0;}
+    #cont_right .column.col9 {display: none;}
+    
+    /* 오른쪽 사이드 이미지 */
     .slider figcaption {padding: 10px;}
     .slider figcaption em {font-size: 18px;}
     .slider figcaption span {font-size: 18px;}
-
+    
+    /* 가운데 사진 */
     .square a {width: 49%;}
     .square a:nth-child(5) {display: none;}
+
 }
 
 /* 화면 너비 0 ~ 480px */
@@ -517,6 +530,10 @@ body {background: url(../img/header_bg.jpg) repeat-x center top;}
 @media (max-width: 320px) {
     .nav > div li {width: 100%;}
     .nav > div:last-child li {width: 100%;}
+   
+    /* 오른쪽 사이드 이미지 */
+    #cont_right .column {width: 100%;}
+    #cont_right .column.col7 {border-right: 0; border-bottom: 1px solid #dbdbdb;}
 
     .square a {width: 100%; margin-right: 0; margin-left: 0; padding: 2px;}
 }
