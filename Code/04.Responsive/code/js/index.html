@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+    <meta name="viewport"
+        content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
     <meta name="author" content="webstoryboy">
     <meta name="description" content="반응형 사이트 따라하기">
     <meta name="keywords" content="반응형사이트, 웹퍼블리셔, 웹접근성, HTML5, webstoryboy, webs">
@@ -13,6 +14,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/slick.css">
 
     <!-- Facebook meta tags -->
     <meta property="og:type" content="article" />
@@ -242,7 +244,8 @@
                             <figure>
                                 <!-- <img src="img/blog1_@1.jpg" class="img-normal" alt="normal image">
                                 <img src="img/blog1_@2.jpg" class="img-retina" alt="retina image" width="100%"> -->
-                                <img src="img/blog2_@1.jpg" srcset="img/blog3_@2.jpg 1x, img/blog3_@2.jpg 2x, img/blog3_@3.jpg 3x" alt="image">
+                                <img src="img/blog2_@1.jpg"
+                                    srcset="img/blog3_@2.jpg 1x, img/blog3_@2.jpg 2x, img/blog3_@3.jpg 3x" alt="image">
                                 <figcaption>반응형 웹 사이트 이미지 글입니다. 반응형 웹 사이트 이미지 글입니다. 반응형 웹 사이트 이미지 글입니다.</figcaption>
                             </figure>
                         </div>
@@ -265,11 +268,15 @@
                 <section id="cont_center">
                     <h3 class="ir_su">반응형 사이트 가운데 컨텐츠</h3>
                     <article class="column col4">
-                        <h4 class="col_tit">Title</h4>
-                        <p class="col_desc">이곳은 설명 부분입니다.</p>
-                        <!--  -->
-
-                        <!-- // -->
+                        <h4 class="col_tit">Slick Slider</h4>
+                        <p class="col_desc">slick.js를 이용한 이미지 슬라이드 효과입니다.</p>
+                        <!-- 이미지 슬라이드 -->
+                        <div class="slider">
+                            <div><img src="img/slider01.jpg" alt="이미지1"></div>
+                            <div><img src="img/slider02.jpg" alt="이미지2"></div>
+                            <div><img src="img/slider03.jpg" alt="이미지3"></div>
+                        </div>
+                        <!-- //이미지 슬라이드 -->
                     </article>
                     <!-- //col4 -->
 
@@ -341,11 +348,26 @@
     <!-- JavaScript Libraries -->
     <script src="js/jquery.min_1.12.4.js"></script>
     <script src="js/modernizr-custom.js"></script>
+    <script src="js/slick.min.js"></script>
     <script>
-        //http://www.facebook.com/sharer.php?u={페이지 제목}&t={페이지링크}
-        //http://twitter.com/intent/tweet?text={페이지 제목}&url={페이지링크}
-        //https://share.naver.com/web/shareView.nhn?url={페이지링크}&title={페이지 제목}
-        //https://plus.google.com/share?url={페이지링크}&t={페이지 제목}
+        //이미지 슬라이더
+        $(".slider").slick({
+            dots: true,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            arrows: false,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: true,
+                        dots: false
+                    }
+                }
+            ]
+        });
+
+        // SNS 공유하기
         $(".Facebook").click(function (e) {
             e.preventDefault();
             window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.title), 'facebooksharedialog', 'menubar=no, toolbar=no, resizable=yes, scrollbars=yes, height=300, width=600');
