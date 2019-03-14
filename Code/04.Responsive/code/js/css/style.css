@@ -449,7 +449,7 @@ position: absolute; left: 0; top: 2px;}
 .side1 {position: relative; perspective: 600px; display: block;}
 .side1 .front {
     transform-style: preserve-3d;
-    transform: translateY(0deg);
+    transform: rotateY(0);
     transition: all 0.5s ease-in-out;
     backface-visibility: hidden;
 }

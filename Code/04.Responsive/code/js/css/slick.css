@@ -35,7 +35,7 @@
 .slick-list.dragging
 {
     cursor: pointer;
-    cursor: hand;
+    /* cursor: hand; */
 }
 
 .slick-slider .slick-track,
@@ -96,7 +96,7 @@
 }
 .slick-slide.dragging img
 {
-    pointer-events: none;
+    /* pointer-events: none; */
 }
 .slick-initialized .slick-slide
 {
