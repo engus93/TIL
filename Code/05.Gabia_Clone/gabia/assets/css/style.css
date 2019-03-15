@@ -1,1 +1,11 @@
-/* Style */
+/* Layout */
+#wrap {width: 100%;}
+#header {width: 100%; height: 89px; }
+#banner {width: 100%; height: 550px;}
+#sbanner {width: 100%; height: 228px;}
+#select {width: 100%; height: 489px;}
+#infor {width: 100%; height: 515px;}
+#ad {width: 100%; height: 451px; }
+#blog {width: 100%; height: 1000px;}
+#site {width: 100%; height: 500px;}
+#footer {width: 100%; height: 300px;}
