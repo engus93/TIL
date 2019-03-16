@@ -4,7 +4,7 @@
 #banner {height: 550px; background: url(../img/banner-bg3.jpg) no-repeat center top;}
 #sbanner {border-top: 1px solid #efefef;}
 #select {background-color: #1d7abd;}
-#infor {height: 515px; background-color: #f44336;}
+#infor {}
 #ad {height: 451px; background-color: #e53935;}
 #blog {height: 1000px; background-color: #d32f2f;}
 #site {height: 500px; background-color: #c62828;}
@@ -56,3 +56,15 @@
 .select > div.simg3 {background:#2886ca url(../img/select-bg3.png) no-repeat 30px 230px; background-size: 90px;}
 .select > div h4 {font-size: 18px; color: #fff; padding-bottom: 20px;}
 .select > div p {font-size: 15px; color: #d2f0ff;}
+
+/* infor */
+.infor {padding: 70px 0; text-align: center;}
+.infor h3 {font-size: 40px; padding-bottom: 20px; font-weight: 300;}
+.infor p {font-size: 18px; color: #666; padding-bottom: 50px;}
+.infor .infor_box {overflow: hidden; text-align-last: left; padding: 0 220px;}
+.infor .infor_box h4 {font-size: 16px; color: #333; padding-bottom: 5px;}
+.infor .infor_box .ib_left {float: left; width: 50%;}
+.infor .infor_box .ib_left em {font-size: 24px; color: #333; display: inline-block; width: 170px;}
+.infor .infor_box .ib_left strong {font-size: 30px; color: #0081c8;}
+.infor .infor_box .ib_right {float: left; width: 50%;}
+.infor .infor_box .ib_right li {font-size: 16px; color: #333;}
