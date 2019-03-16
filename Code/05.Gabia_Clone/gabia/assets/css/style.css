@@ -2,7 +2,7 @@
 #wrap {}
 #header {height: 89px; border-bottom: 1px solid #efefef;}
 #banner {height: 550px; background: url(../img/banner-bg3.jpg) no-repeat center top;}
-#sbanner {height: 228px; background-color: #e57373;}
+#sbanner {border-top: 1px solid #efefef;}
 #select {height: 489px; background-color: #ef5350;}
 #infor {height: 515px; background-color: #f44336;}
 #ad {height: 451px; background-color: #e53935;}
@@ -38,3 +38,9 @@
 .banner em {font-size: 18px; color: #f66b05; display: block;}
 .banner .view {font-size: 16px; display: inline-block; margin-top: 50px; border: 1px solid #333;background-color: #fff; padding: 12px 42px; transition: background-color .3s ease;}
 .banner .view:hover {background-color: #000; color: #fff;}
+
+/* sbanner */
+.sbanner {}
+.sbanner > div{}
+.sbanner > div h4{}
+.sbanner > div p{}
