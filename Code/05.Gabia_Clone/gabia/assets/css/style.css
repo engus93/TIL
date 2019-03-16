@@ -1,11 +1,17 @@
 /* Layout */
-#wrap {width: 100%;}
-#header {width: 100%; height: 89px; }
-#banner {width: 100%; height: 550px;}
-#sbanner {width: 100%; height: 228px;}
-#select {width: 100%; height: 489px;}
-#infor {width: 100%; height: 515px;}
-#ad {width: 100%; height: 451px; }
-#blog {width: 100%; height: 1000px;}
-#site {width: 100%; height: 500px;}
-#footer {width: 100%; height: 300px;}
+#wrap {}
+#header {height: 89px; background-color: #ffcdd2;}
+#banner {height: 550px; background-color: #ef9a9a;}
+#sbanner {height: 228px; background-color: #e57373;}
+#select {height: 489px; background-color: #ef5350;}
+#infor {height: 515px; background-color: #f44336;}
+#ad {height: 451px; background-color: #e53935;}
+#blog {height: 1000px; background-color: #d32f2f;}
+#site {height: 500px; background-color: #c62828;}
+#footer {height: 300px; background-color: #b71c1c;}
+
+/* container */
+.container {
+    width: 1180px; height: inherit; 
+    background-color: rgba(0, 0, 0, 0.5); margin: 0 auto;
+}
