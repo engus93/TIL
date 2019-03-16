@@ -1,6 +1,6 @@
 /* Layout */
 #wrap {}
-#header {height: 89px; background-color: #ffcdd2;}
+#header {height: 89px; border-bottom: 1px solid #efefef;}
 #banner {height: 550px; background-color: #ef9a9a;}
 #sbanner {height: 228px; background-color: #e57373;}
 #select {height: 489px; background-color: #ef5350;}
@@ -13,5 +13,17 @@
 /* container */
 .container {
     width: 1180px; height: inherit; 
-    background-color: rgba(0, 0, 0, 0.5); margin: 0 auto;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    margin: 0 auto;
 }
+
+/* header */
+.header {overflow: hidden;}
+.header h1 {float: left; padding-top: 24px; padding-right: 30px;}
+.header .gnb {float: left;}
+.header .gnb ul {}
+.header .gnb ul li {display: inline;}
+.header .gnb ul li a {font-size: 18px; padding: 32px 12px; display: inline-block;}
+.header .quick {float: right;}
+.header .quick li {display: inline;}
+.header .quick li a {font-size: 14px; padding: 34px 12px; display: inline-block; color: #676767;}
