@@ -61,10 +61,11 @@
 .infor {padding: 70px 0; text-align: center;}
 .infor h3 {font-size: 40px; padding-bottom: 20px; font-weight: 300;}
 .infor p {font-size: 18px; color: #666; padding-bottom: 50px;}
-.infor .infor_box {overflow: hidden; text-align-last: left; padding: 0 220px;}
+.infor .infor_box {overflow: hidden; text-align-last: left; padding: 0 210px;}
 .infor .infor_box h4 {font-size: 16px; color: #333; padding-bottom: 5px;}
-.infor .infor_box .ib_left {float: left; width: 50%;}
+.infor .infor_box h4 i {color: #0081c8;}
+.infor .infor_box .ib_left {float: left; width: 50%; border-right: 1px solid #ccc; box-sizing: border-box;}
 .infor .infor_box .ib_left em {font-size: 24px; color: #333; display: inline-block; width: 170px;}
 .infor .infor_box .ib_left strong {font-size: 30px; color: #0081c8;}
-.infor .infor_box .ib_right {float: left; width: 50%;}
+.infor .infor_box .ib_right {float: left; width: 50%; padding-left: 50px; box-sizing: border-box;}
 .infor .infor_box .ib_right li {font-size: 16px; color: #333;}
