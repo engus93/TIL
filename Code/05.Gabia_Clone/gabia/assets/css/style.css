@@ -50,7 +50,9 @@
 /* select */
 .select {overflow: hidden; padding: 70px 0;}
 .select h3 {float: left; width: 25%; font-size: 40px; color: #fff;}
-.select > div {float: left; width: 17.5%; background-color: #2886ca; 
-    margin-left: 1.5%; padding: 3%; height: 300px;}
+.select > div {float: left; width: 17.5%; margin-left: 1.5%; padding: 3%; height: 300px;}
+.select > div.simg1 {background:#2886ca url(../img/select-bg1.png) no-repeat 30px 220px; background-size: 80px;}
+.select > div.simg2 {background:#2886ca url(../img/select-bg2.png) no-repeat 30px 220px; background-size: 90px;}
+.select > div.simg3 {background:#2886ca url(../img/select-bg3.png) no-repeat 30px 230px; background-size: 90px;}
 .select > div h4 {font-size: 18px; color: #fff; padding-bottom: 20px;}
 .select > div p {font-size: 15px; color: #d2f0ff;}
