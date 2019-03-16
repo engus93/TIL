@@ -3,7 +3,7 @@
 #header {height: 89px; border-bottom: 1px solid #efefef;}
 #banner {height: 550px; background: url(../img/banner-bg3.jpg) no-repeat center top;}
 #sbanner {border-top: 1px solid #efefef;}
-#select {height: 489px; background-color: #ef5350;}
+#select {background-color: #1d7abd;}
 #infor {height: 515px; background-color: #f44336;}
 #ad {height: 451px; background-color: #e53935;}
 #blog {height: 1000px; background-color: #d32f2f;}
@@ -46,3 +46,10 @@
 .sbanner > div h4 i {padding-left: 8px;}
 .sbanner > div h4:hover {text-decoration: underline;}
 .sbanner > div p {font-size: 16px; color: #676767;}
+
+/* select */
+.select {}
+.select h3 {}
+.select > div {}
+.select > div h4 {}
+.select > div p {}
