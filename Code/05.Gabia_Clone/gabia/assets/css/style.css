@@ -40,7 +40,8 @@
 .banner .view:hover {background-color: #000; color: #fff;}
 
 /* sbanner */
-.sbanner {}
-.sbanner > div{}
-.sbanner > div h4{}
-.sbanner > div p{}
+.sbanner {overflow: hidden; padding: 70px 0;}
+.sbanner > div {float: left; width: 25%;}
+.sbanner > div h4 {font-size: 24px; padding-bottom: 4px;}
+.sbanner > div h4:hover {text-decoration: underline;}
+.sbanner > div p {font-size: 16px; color: #676767;}
