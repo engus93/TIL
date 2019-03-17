@@ -134,3 +134,9 @@
 .footer .family {position: absolute; right: 0; top: 50px;}
 .footer .family select {background-color: #fff; width: 145px; height: 44px; padding-left: 5px; margin-right: 5px;}
 .footer .family .family_btn {padding: 10px 15px 11px; border: 1px solid #cfd5da; font-size: 14px; color: #707070;}
+.footer .w3c {position: absolute; right: 0; top: 110px; text-align: right;}
+
+/* sub page */
+#sub_banner {background: url(../img/server-bg1.png) repeat-x center top}
+
+/* sub_banner */
