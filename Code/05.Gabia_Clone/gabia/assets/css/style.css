@@ -82,10 +82,13 @@ background-size: cover;}
 
 /* blog */
 .blog {padding: 70px 0;}
-.blog .blog_wrap{overflow: hidden; background-color: #ccc; height: 440px; margin-bottom: 80px;}
-.blog .blog_wrap > div {float: left; width: 25%; }
-.blog .blog_wrap > div h4 {}
-.blog .blog_wrap > div p {}
+.blog h3 {font-size: 34px; margin-bottom: 50px;}
+.blog .blog_wrap{overflow: hidden; margin-bottom: 80px;}
+.blog .blog_wrap > div {float: left; width: 23.5%; margin-right: 2%; border-top: 1px solid #6f6f6f;}
+.blog .blog_wrap > div:last-child {margin-right: 0;}
+.blog .blog_wrap > div h4 {font-size: 22px; padding: 25px 0 15px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.blog .blog_wrap > div p {font-size: 16px; color: #7e7e7e; margin-bottom: 40px;
+    overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; height: 95px;}
 .blog .blog_wrap > div figure img {width: 100%;}
 .blog .notice_wrap {background-color: #ddd; height: 257px;}
 .blog .notice_wrap .nw_left {}
