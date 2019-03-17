@@ -6,11 +6,11 @@
 #select {background-color: #1d7abd;}
 #infor {}
 #ad {position: relative; background: url(../img/ad_bg.jpg) no-repeat center top; z-index: 1;
-background-size: cover;}
+    background-size: cover;}
 #ad:before {content: ''; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7); 
     position: absolute; left: 0; top: 0;}
 #blog {}
-#site {height: 500px; background-color: #c62828;}
+#site {background-color: #f8f9fa;}
 #footer {height: 300px; background-color: #b71c1c;}
 
 /* container */
@@ -103,3 +103,13 @@ background-size: cover;}
 .blog .notice_wrap .nw_right ul {border-top: 2px solid #6f6f6f; padding: 20px; border-bottom: 1px solid #e5e5e5; height: 145px;}
 .blog .notice_wrap .nw_right li {padding: 12px 0; color: #666; font-size: 16px;}
 .blog .notice_wrap .nw_right li span {background-color: #666; color: #fff; margin-right: 20px; padding: 5px 10px; font-size: 14px;}
+
+/* site */
+.site {overflow: hidden; padding: 70px 0;}
+.site > div {width: 16.6666%; float: left;}
+.site > div h4 {font-size: 16px; font-weight: bold; padding-bottom: 20px;}
+.site > div li {padding-bottom: 5px;}
+.site > div li a {font-size: 16px;}
+.site > div.two {width: 33.2222%;}
+.site > div.two ul {overflow: hidden;}
+.site > div.two ul li {float: left; width: 50%;}
