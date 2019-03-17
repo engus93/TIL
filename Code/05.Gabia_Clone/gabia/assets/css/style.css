@@ -82,7 +82,7 @@ background-size: cover;}
 
 /* blog */
 .blog {padding: 70px 0;}
-.blog h3 {font-size: 34px; margin-bottom: 50px;}
+.blog > h3 {font-size: 34px; margin-bottom: 50px;}
 .blog .blog_wrap{overflow: hidden; margin-bottom: 80px;}
 .blog .blog_wrap > div {float: left; width: 23.5%; margin-right: 2%; border-top: 1px solid #6f6f6f;}
 .blog .blog_wrap > div:last-child {margin-right: 0;}
@@ -90,8 +90,16 @@ background-size: cover;}
 .blog .blog_wrap > div p {font-size: 16px; color: #7e7e7e; margin-bottom: 40px;
     overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; height: 95px;}
 .blog .blog_wrap > div figure img {width: 100%;}
-.blog .notice_wrap {height: 257px; overflow: hidden;}
-.blog .notice_wrap .nw_left {float: left; width: 780px; background-color: #ccc; height: 257px;}
-.blog .notice_wrap .nw_left h3 {font: 22px;}
-.blog .notice_wrap .nw_right {float: right; width: 375px; background-color: #ddd; height: 257px;}
-.blog .notice_wrap .nw_right h3 {font-size: 22px;}
+.blog .notice_wrap {overflow: hidden;}
+.blog .notice_wrap .nw_left {float: left; width: 780px;}
+.blog .notice_wrap .nw_left > h3 {font-size: 34px; margin-bottom: 20px; margin-right: 20px; display: inline-block;}
+.blog .notice_wrap .nw_left > a.total {font-size: 14px;color: #999;}
+.blog .notice_wrap .nw_left ul {border-top: 2px solid #6f6f6f;}
+.blog .notice_wrap .nw_left li {overflow: hidden; padding: 20px 10px; border-bottom: 1px solid #e5e5e5;}
+.blog .notice_wrap .nw_left li a {float: left; color: #666; font-size: 14px;}
+.blog .notice_wrap .nw_left li span {float: right; color: #666; font-size: 14px; color: #999;}
+.blog .notice_wrap .nw_right {float: right; width: 375px; height: 257px;}
+.blog .notice_wrap .nw_right h3 {font-size: 34px; margin-bottom: 20px;}
+.blog .notice_wrap .nw_right ul {border-top: 2px solid #6f6f6f; padding: 20px; border-bottom: 1px solid #e5e5e5; height: 145px;}
+.blog .notice_wrap .nw_right li {padding: 12px 0; color: #666; font-size: 16px;}
+.blog .notice_wrap .nw_right li span {background-color: #666; color: #fff; margin-right: 20px; padding: 5px 10px; font-size: 14px;}
