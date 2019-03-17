@@ -90,6 +90,8 @@ background-size: cover;}
 .blog .blog_wrap > div p {font-size: 16px; color: #7e7e7e; margin-bottom: 40px;
     overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; height: 95px;}
 .blog .blog_wrap > div figure img {width: 100%;}
-.blog .notice_wrap {background-color: #ddd; height: 257px;}
-.blog .notice_wrap .nw_left {}
-.blog .notice_wrap .nw_right {}
+.blog .notice_wrap {height: 257px; overflow: hidden;}
+.blog .notice_wrap .nw_left {float: left; width: 780px; background-color: #ccc; height: 257px;}
+.blog .notice_wrap .nw_left h3 {font: 22px;}
+.blog .notice_wrap .nw_right {float: right; width: 375px; background-color: #ddd; height: 257px;}
+.blog .notice_wrap .nw_right h3 {font-size: 22px;}
