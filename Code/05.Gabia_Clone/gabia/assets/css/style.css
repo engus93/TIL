@@ -140,3 +140,12 @@
 #sub_banner {background: url(../img/server-bg1.png) repeat-x center top}
 
 /* sub_banner */
+.sub_banner {overflow: hidden; padding: 80px 0;}
+.sub_banner .sb_left {float: left; width: 760px;}
+.sub_banner .sb_left h2 {font-size: 40px; color: #fff;}
+.sub_banner .sb_left p {font-size: 16px; color: #fff;}
+.sub_banner .sb_right {float: left; width: 420px; padding-top: 15px;}
+.sub_banner .sb_right li {display: inline; margin-right: 10px;}
+.sub_banner .sb_right li a {display: inline-block; font-size: 18px; color: #b2ddf9;
+    border: 2px solid #b2ddf9; border-radius: 50px; width: 65px; height: 50px;
+    padding-left: 54px; line-height: 50px;}
