@@ -30,3 +30,4 @@
 
 > ### [01. SPA & MPA](https://docs.google.com/presentation/d/1C1C0rFBdZA1elzCru_7F26fzOHHDTgbxIZKANe7bGSc/edit?usp=sharing)
 > ### [02. Web Design & Semantic](https://docs.google.com/presentation/d/1VfhHuRTBzVNfWJG_eQmXDqvSZ0AEiXMdqEWVNfYafYI/edit?usp=sharing)
+> ### [03. Web Standard](https://docs.google.com/presentation/d/1rEkL7xeXF305zfKGlV6NfUGEdrwaX3-YewJESeH2T3s/edit?usp=sharing)
