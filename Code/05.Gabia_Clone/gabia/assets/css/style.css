@@ -9,7 +9,7 @@
 background-size: cover;}
 #ad:before {content: ''; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7); 
     position: absolute; left: 0; top: 0;}
-#blog {height: 1000px; background-color: #d32f2f;}
+#blog {}
 #site {height: 500px; background-color: #c62828;}
 #footer {height: 300px; background-color: #b71c1c;}
 
@@ -77,6 +77,16 @@ background-size: cover;}
 .ad {position: relative; padding: 70px 0; text-align: center; z-index: 10;}
 .ad h3 {font-size: 40px; padding-bottom: 20px; color: #fff;}
 .ad p {font-size: 16px; color: #fff;}
-.ad .view {font-size: 16px; display: inline-block; margin-top: 50px; color: #fff;
-    border: 1px solid #fff;background-color: transparent; padding: 12px 42px; transition: background-color .3s ease;}
+.ad .view {font-size: 16px; display: inline-block; margin-top: 50px; color: #fff; border: 1px solid #fff;background-color: transparent; padding: 12px 42px; transition: background-color .3s ease;}
 .ad .view:hover {background-color: #fff; color: #000;}
+
+/* blog */
+.blog {padding: 70px 0;}
+.blog .blog_wrap{overflow: hidden; background-color: #ccc; height: 440px; margin-bottom: 80px;}
+.blog .blog_wrap > div {float: left; width: 25%; }
+.blog .blog_wrap > div h4 {}
+.blog .blog_wrap > div p {}
+.blog .blog_wrap > div figure img {width: 100%;}
+.blog .notice_wrap {background-color: #ddd; height: 257px;}
+.blog .notice_wrap .nw_left {}
+.blog .notice_wrap .nw_right {}
