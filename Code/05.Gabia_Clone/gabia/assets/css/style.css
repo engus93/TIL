@@ -1,7 +1,7 @@
 /* Main Page Layout */
 #wrap {}
 #header {height: 89px; border-bottom: 1px solid #efefef;}
-#banner {height: 550px; background: url(../img/banner-bg3.jpg) no-repeat center top;}
+#banner {}
 #sbanner {border-top: 1px solid #efefef;}
 #select {background-color: #1d7abd;}
 #infor {}
@@ -55,6 +55,9 @@ background-color: #333; color: #fff; text-align: center; padding: 10px 0;}
 .banner em {font-size: 18px; color: #f66b05; display: block;}
 .banner .view {font-size: 16px; display: inline-block; margin-top: 50px; border: 1px solid #333;background-color: #fff; padding: 12px 42px; transition: background-color .3s ease;}
 .banner .view:hover {background-color: #000; color: #fff;}
+.banner_img1 {background: url(../img/banner-bg1.jpg) no-repeat center top;}
+.banner_img2 {background: url(../img/banner-bg3.jpg) no-repeat center top;}
+.banner_img3 {background: url(../img/banner-bg1.jpg) no-repeat center top;}
 
 /* sbanner */
 .sbanner {overflow: hidden; padding: 70px 0;}
