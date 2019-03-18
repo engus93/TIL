@@ -140,7 +140,6 @@
 #sub_banner.hosting_bg {background: url(../img/server-bg1.png) repeat-x center top}
 #sub_banner.mail_bg {background: url(../img/mail-bg1.png) repeat-x center top}
 #sub_banner.service_bg {background: url(../img/service-bg1.png) repeat-x center top}
-#product_table {}
 
 /* sub_banner */
 .sub_banner {overflow: hidden; padding: 80px 0;}
@@ -174,4 +173,16 @@
 
 /* table_style1 */
 .table_style1 {}
-.table_style1 table {border-top: 2px solid #6f6f6f; border-bottom: 1px solid #9a9a9a;}
+.table_style1 table {border-top: 2px solid #6f6f6f; border-bottom: 1px solid #9a9a9a;
+font-size: 16px; text-align: center; color: #666;}
+.table_style1 table thead {}
+.table_style1 table thead th {background-color: #f9fafc; padding: 20px;
+    border-bottom: 1px solid #ccc; border-right: 1px solid #e4e4e4;}
+.table_style1 table thead th:last-child {border-right: 0}
+.table_style1 table tbody td {padding: 20px; border-bottom: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;}
+.table_style1 table tbody td:last-child {border-right: 0}
+
+.table_style1 .left {text-align: left;}
+.table_style1 .center {text-align: center;}
+.table_style1 .black {color: #000;}
