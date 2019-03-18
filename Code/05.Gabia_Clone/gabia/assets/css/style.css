@@ -5,6 +5,7 @@
 #sbanner {border-top: 1px solid #efefef;}
 #select {background-color: #1d7abd;}
 #select2 {background-color: #1d7abd;}
+#select5 {background-color: #1d7abd;}
 #infor {}
 #ad {position: relative; background: url(../img/ad_bg.jpg) no-repeat center top; z-index: 1;
     background-size: cover;}
@@ -62,12 +63,24 @@
 
 /* select2 */
 .select2 {overflow: hidden; padding: 70px 0;}
-.select2 h3 {float: left; width: 33.3333%; font-size: 40px; color: #fff;}
-.select2 > div {float: left; width: 25.8333%; margin-left: 1.5%; padding: 3%; height: 300px;}
+.select2 h3 {float: left; width: 32.3333%; margin-right: 1.5%; font-size: 40px; color: #fff;}
+.select2 > div {float: left; width: 26.3333%; margin-right: 1.5%; padding: 3%; height: 300px;}
 .select2 > div.simg1 {background:#2886ca url(../img/select-bg1.png) no-repeat 30px 30px; background-size: 80px;}
-.select2 > div.simg2 {background:#2886ca url(../img/select-bg2.png) no-repeat 30px 30px; background-size: 90px;}
+.select2 > div.simg2 {background:#2886ca url(../img/select-bg2.png) no-repeat 30px 30px; background-size: 90px; margin-right: 0;}
 .select2 > div h4 {font-size: 18px; color: #fff; padding-bottom: 20px; padding-top: 150px;}
 .select2 > div p {font-size: 15px; color: #fff;}
+
+/* select5 */
+.select5 {overflow: hidden; padding: 70px 0;}
+.select5 h3 {float: left; width: 32.3333%; margin-right: 1.5%; font-size: 40px; color: #fff;}
+.select5 > div {float: left; width: 26.3333%; margin-right: 1.5%; margin-bottom: 1.5%; padding: 3%; height: 300px;}
+.select5 > div.simg1 {background:#2886ca url(../img/select-bg1.png) no-repeat 30px 30px; background-size: 80px;}
+.select5 > div.simg2 {background:#2886ca url(../img/select-bg2.png) no-repeat 30px 30px; background-size: 90px; margin-right: 0;}
+.select5 > div.simg3 {background:#2886ca url(../img/select-bg3.png) no-repeat 30px 30px; background-size: 90px;}
+.select5 > div.simg4 {background:#2886ca url(../img/select-bg1.png) no-repeat 30px 30px; background-size: 90px;}
+.select5 > div.simg5 {background:#2886ca url(../img/select-bg2.png) no-repeat 30px 30px; background-size: 90px; margin-right: 0;}
+.select5 > div h4 {font-size: 18px; color: #fff; padding-bottom: 20px; padding-top: 150px;}
+.select5 > div p {font-size: 15px; color: #fff;}
 
 /* infor */
 .infor {padding: 70px 0; text-align: center;}
