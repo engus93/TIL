@@ -6,7 +6,7 @@
 #select {background-color: #1d7abd;}
 #infor {}
 #ad {position: relative; background: url(../img/ad_bg.jpg) no-repeat center top; z-index: 1;
-    background-size: cover;}
+background-size: cover;}
 #ad:before {content: ''; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7); 
     position: absolute; left: 0; top: 0;}
 #blog {}
@@ -50,10 +50,10 @@ background-color: #333; color: #fff; text-align: center; padding: 10px 0;}
 
 /* banner */
 .banner {padding: 115px 50px; }
-.banner h2 {font-size: 46px; line-height: 55px;}
-.banner p {font-size: 18px; padding: 20px 0; color: #666; font-weight: 400;}
+.banner h2 {font-size: 46px; line-height: 55px; }
+.banner p {font-size: 18px;  padding: 20px 0; color: #666;  font-weight: 300;}
 .banner em {font-size: 18px; color: #f66b05; display: block;}
-.banner .view {font-size: 16px; display: inline-block; margin-top: 50px; border: 1px solid #333;background-color: #fff; padding: 12px 42px; transition: background-color .3s ease;}
+.banner .view {font-size: 16px; display: inline-block; margin-top: 50px;  border: 1px solid #333; background-color: #fff; padding: 12px 42px; transition: all 0.3s ease;}
 .banner .view:hover {background-color: #000; color: #fff;}
 .banner_img1 {background: url(../img/banner-bg1.jpg) no-repeat center top;}
 .banner_img2 {background: url(../img/banner-bg3.jpg) no-repeat center top;}
