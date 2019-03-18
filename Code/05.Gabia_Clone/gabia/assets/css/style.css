@@ -19,6 +19,12 @@
     /* background-color: rgba(0, 0, 0, 0.5); */
 }
 
+/* skip */
+.skip {position: relative;}
+.skip a {position: absolute; left: 0; top: -50px; width: 140px; border: 1px solid #444;
+background-color: #333; color: #fff; text-align: center; padding: 10px 0;}
+.skip a:focus, .skip a:active {top: 0;}
+
 /*Sub Page Layout */
 #sub_banner.hosting_bg {background: url(../img/server-bg1.png) repeat-x center top}
 #sub_banner.mail_bg {background: url(../img/mail-bg1.png) repeat-x center top}
