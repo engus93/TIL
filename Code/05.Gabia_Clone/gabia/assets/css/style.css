@@ -162,6 +162,12 @@
 .product_table {padding: 80px 0;}
 .product_table .table_title1 {}
 .product_table .table_style1 {}
+.product_table .more {text-align: center; padding: 20px 0 40px;}
+.product_table .list li { position: relative; font-size: 14px; line-height: 28px; padding-left: 10px;}
+.product_table .list li::before {
+    content: ''; width: 3px; height: 3px; background-color: #333;
+    position: absolute; left: 0; top: 12px; border-radius: 50%;}
+.product_table .list .help {font-size: 18px;}
 
 /* table_title1 */
 .table_title1 {position: relative; padding-bottom: 20px;}
@@ -189,3 +195,4 @@ font-size: 16px; text-align: center; color: #666;}
 .table_style1 .small {font-size: 12px;}
 .table_style1 .view {display: inline-block; padding: 5px 45px; color: #fff;
     background-color: #3090d6; font-size: 16px;}
+
