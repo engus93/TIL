@@ -13,12 +13,21 @@
     <!-- Style -->
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
 
     <!-- font -->
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 </head>
 
 <body>
+
+    <div class="skip">
+        <a href="#blog">블로그</a>
+        <a href="#site">사이트맵</a>
+    </div>
+    <!-- //skip -->
+
     <div id="wrap">
         <header id="header">
             <h1 class="ir_su">제목</h1>
@@ -49,12 +58,34 @@
 
         <main>
             <section id="banner">
-                <div class="container">
-                    <div class="banner">
-                        <h2>신청 즉시 사용하는<br>1분 설치 서버</h2>
-                        <p>고성능 SSD 서버를 할인된 금액으로 만나볼 수 있는 기회!<br>선착순 20대, 서두르세요!</p>
-                        <em>HP DL60v3 SSD 20% 할인</em>
-                        <a href="#" class="view">자세히 보기</a>
+                <div class="banner_img1">
+                    <div class="container">
+                        <div class="banner">
+                            <h2>신청 즉시 사용하는<br>1분 설치 서버</h2>
+                            <p>고성능 SSD 서버를 할인된 금액으로 만나볼 수 있는 기회!<br>선착순 20대, 서두르세요!</p>
+                            <em>HP DL60v3 SSD 20% 할인</em>
+                            <a href="#" class="view">자세히 보기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner_img2">
+                    <div class="container">
+                        <div class="banner">
+                            <h2>신청 즉시 사용하는<br>1분 설치 서버</h2>
+                            <p>고성능 SSD 서버를 할인된 금액으로 만나볼 수 있는 기회!<br>선착순 20대, 서두르세요!</p>
+                            <em>HP DL60v3 SSD 20% 할인</em>
+                            <a href="#" class="view">자세히 보기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner_img3">
+                    <div class="container">
+                        <div class="banner">
+                            <h2>신청 즉시 사용하는<br>1분 설치 서버</h2>
+                            <p>고성능 SSD 서버를 할인된 금액으로 만나볼 수 있는 기회!<br>선착순 20대, 서두르세요!</p>
+                            <em>HP DL60v3 SSD 20% 할인</em>
+                            <a href="#" class="view">자세히 보기</a>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -95,21 +126,21 @@
 
             <section id="select">
                 <div class="container">
-                        <div class="select">
-                            <h3><strong>가비아</strong>를<br> 선택하는<br> 이유입니다.</h3>
-                            <div class="simg1">
-                                <h4>전문성과 경험</h4>
-                                <p>국내최초, 업계 유일의<br> 품질보장제(SLA)로<br> 안정된 서비스 운영을 보장합니다.</p>
-                            </div>
-                            <div class="simg2">
-                                <h4>강력한 보안</h4>
-                                <p>전문 보안 관제팀이<br> 맞춤형 보안 정책을 수립해<br> 정보 자산을 안전하게 보호합니다.</p>
-                            </div>
-                            <div class="simg3">
-                                <h4>24/365 서버관리</h4>
-                                <p>전문 엔지니어가<br> 365일 24시간 IDC에 상주하며<br> 이슈에 실시간 대응합니다.</p>
-                            </div>
+                    <div class="select">
+                        <h3><strong>가비아</strong>를<br> 선택하는<br> 이유입니다.</h3>
+                        <div class="simg1">
+                            <h4>전문성과 경험</h4>
+                            <p>국내최초, 업계 유일의<br> 품질보장제(SLA)로<br> 안정된 서비스 운영을 보장합니다.</p>
                         </div>
+                        <div class="simg2">
+                            <h4>강력한 보안</h4>
+                            <p>전문 보안 관제팀이<br> 맞춤형 보안 정책을 수립해<br> 정보 자산을 안전하게 보호합니다.</p>
+                        </div>
+                        <div class="simg3">
+                            <h4>24/365 서버관리</h4>
+                            <p>전문 엔지니어가<br> 365일 24시간 IDC에 상주하며<br> 이슈에 실시간 대응합니다.</p>
+                        </div>
+                    </div>
                 </div>
             </section>
             <!-- //select -->
@@ -141,7 +172,7 @@
                     </div>
                 </div>
             </section>
-            <!-- //infof -->
+            <!-- //infor -->
 
             <section id="ad">
                 <div class="container">
@@ -367,6 +398,20 @@
         </footer>
         <!-- //footer -->
     </div>
+    <!-- //wrap -->
+
+    <!-- script -->
+    <script src="assets/js/jquery.min_1.12.4.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#banner').slick({
+                autoplay : true,
+                autoplaySpeed : 5000,
+                dots : true
+            });
+        });
+    </script>
 </body>
 
 </html>

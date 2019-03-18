@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+    <meta name="author" content="Duveloper">
+    <meta name="description" content="Gabia 클론 코딩">
+    <meta name="keywords" content="사이트만들기, 기업사이트, 가비아, 따라하기">
+    <title>Gabia Resopnsive Clone Coding</title>
+
+    <!-- style -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+
+    <!-- font -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+    <!-- html5shiv -->
+    <script src="assets/js/html5shiv.js"></script>
+
+    <!-- ie checker -->
+    <script src="assets/js/ie-checker.js"></script>
+
+    <!--[If IE 8]>
+    <script type="text/javascript">
+        alert("Please Upgrade Your BROWSER !");
+    </script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <div class="skip">
+        <a href="#search">검색</a>
+        <a href="#blog">블로그</a>
+        <a href="#site">사이트맵</a>
+    </div>
+    <!-- //skip -->
+
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <div class="header">
+                    <h1><a href="#"><img src="assets/img/logo.png" alt="가비아"></a></h1>
+                    <nav class="gnb">
+                        <ul>
+                            <li><a href="#">도메인</a></li>
+                            <li><a href="#">클라우드</a></li>
+                            <li><a href="#">IDC</a></li>
+                            <li><a href="#">호스팅</a></li>
+                            <li><a href="#">메일/그룹웹어</a></li>
+                            <li><a href="#">쇼핑몰</a></li>
+                            <li><a href="#">보안</a></li>
+                        </ul>
+                    </nav>
+                    <ul class="quick">
+                        <li><a href="">로그인</a></li>
+                        <li><a href="">회원가입</a></li>
+                        <li><a href="">My Gabia</a></li>
+                        <li><a href="">고객센터</a></li>
+                    </ul>
+                    <div class="mGnb">
+                        <div class="bar_wrap">
+                            <div class="bar one"></div>
+                            <div class="bar two"></div>
+                            <div class="bar three"></div>
+                        </div>
+                    </div>
+                    <div class="search">
+                        <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- //header -->
+
+    <section id="banner">
+        <div class="banner_img1">
+            <div class="container">
+                <div class="banner">
+                    <h2>신청 즉시 사용하는<br>1분 설치 서버</h2>
+                    <p>고성능 SSD 서버를 할인된 금액으로 만나볼 수 있는 기회!<br>선착순 20대, 서두르세요!</p>
+                    <em>HP DL60v3 SSD 20% 할인</em>
+                    <a href="#" class="view">자세히 보기</a>
+                </div>
+            </div>
+        </div>
+        <div class="banner_img2">
+            <div class="container">
+                <div class="banner">
+                    <h2>신청 즉시 사용하는<br>1분 설치 서버</h2>
+                    <p>고성능 SSD 서버를 할인된 금액으로 만나볼 수 있는 기회!<br>선착순 20대, 서두르세요!</p>
+                    <em>HP DL60v3 SSD 20% 할인</em>
+                    <a href="#" class="view">자세히 보기</a>
+                </div>
+            </div>
+        </div>
+        <div class="banner_img3">
+            <div class="container">
+                <div class="banner">
+                    <h2>신청 즉시 사용하는<br>1분 설치 서버</h2>
+                    <p>고성능 SSD 서버를 할인된 금액으로 만나볼 수 있는 기회!<br>선착순 20대, 서두르세요!</p>
+                    <em>HP DL60v3 SSD 20% 할인</em>
+                    <a href="#" class="view">자세히 보기</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //banner -->
+
+    <section id="search">
+        <h2>도메인 검색</h2>
+    </section>
+    <!-- //search -->
+
+    <main>
+
+        <section id="sbanner">
+            <h3>sbanner 타이틀</h3>
+        </section>
+        <!-- //sbanner -->
+
+        <section id="select">
+            <h3>select 타이틀</h3>
+        </section>
+        <!-- //select -->
+
+        <section id="infor">
+            <h3>info 타이틀</h3>
+        </section>
+        <!-- //infor -->
+
+        <section id="ad">
+            <h3>ad 타이틀</h3>
+        </section>
+        <!-- //ad -->
+
+        <section id="blog">
+            <h3>blog 타이틀</h3>
+        </section>
+        <!-- //blog -->
+
+        <section id="site">
+            <h3>site 타이틀</h3>
+        </section>
+        <!-- //site -->
+
+    </main>
+    <!-- //main -->
+
+    <section id="footer">
+        <h2>footer 타이틀</h2>
+    </section>
+    <!-- //footer -->
+
+    <!-- script -->
+    <script src="assets/js/jquery.min_1.12.4.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#banner').slick({
+                autoplay : true,
+                autoplaySpeed : 5000,
+                dots : true
+            });
+        });
+    </script>
+</body>
+
+</html>
