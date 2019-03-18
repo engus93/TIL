@@ -165,7 +165,13 @@
 .product_table .table_style1 {}
 
 /* table_title1 */
-.table_title1 {}
+.table_title1 {position: relative; padding-bottom: 20px;}
+.table_title1 ul {}
+.table_title1 li {display: inline;}
+.table_title1 li a {font-size: 18px; color: #999; padding: 0 10px;}
+.table_title1 li.active a {color: #333;}
+.table_title1 .detail {position: absolute; right: 0; top: 0; font-size: 18px; color: #1d7abd;}
 
 /* table_style1 */
 .table_style1 {}
+.table_style1 table {border-top: 2px solid #6f6f6f; border-bottom: 1px solid #9a9a9a;}

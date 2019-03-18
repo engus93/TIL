@@ -24,6 +24,12 @@ h1, h2, h3, h4, h5, h6 {font-size: 12px; font-weight: normal;}
 /* a 링크 초기화 */
 a {color: #333; text-decoration: none;}
 
+/* 이미지 초기화 */
+img {border: 0;}
+
+/* table 초기화 */
+table {width: 100%; border-spacing: 0; border-collapse: collapse;}
+
 /* IR 효과 */
 /* 1. 의미있는 이미지의 대체 텍스트를 제공하는 경우 */
 .ir_pm {display: block; overflow: hidden; font-size: 0; line-height: 0; text-indent: -9999px;}
