@@ -140,6 +140,7 @@
 #sub_banner.hosting_bg {background: url(../img/server-bg1.png) repeat-x center top}
 #sub_banner.mail_bg {background: url(../img/mail-bg1.png) repeat-x center top}
 #sub_banner.service_bg {background: url(../img/service-bg1.png) repeat-x center top}
+#product_table {}
 
 /* sub_banner */
 .sub_banner {overflow: hidden; padding: 80px 0;}
@@ -157,3 +158,14 @@
 .sub_banner .sb_right li.ic1 a:hover {color: #fff; border-color: #fff;}
 .sub_banner .sb_right li.ic2 a:hover {color: #fff; border-color: #fff;}
 .sub_banner .sb_right li.ic3 a:hover {color: #fff; border-color: #fff;}
+
+/* product_table */
+.product_table {padding: 80px 0;}
+.product_table .table_title1 {}
+.product_table .table_style1 {}
+
+/* table_title1 */
+.table_title1 {}
+
+/* table_style1 */
+.table_style1 {}
