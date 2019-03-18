@@ -1,11 +1,9 @@
-/* Layout */
+/* Main Page Layout */
 #wrap {}
 #header {height: 89px; border-bottom: 1px solid #efefef;}
 #banner {height: 550px; background: url(../img/banner-bg3.jpg) no-repeat center top;}
 #sbanner {border-top: 1px solid #efefef;}
 #select {background-color: #1d7abd;}
-#select2 {background-color: #1d7abd;}
-#select5 {background-color: #1d7abd;}
 #infor {}
 #ad {position: relative; background: url(../img/ad_bg.jpg) no-repeat center top; z-index: 1;
     background-size: cover;}
@@ -20,6 +18,15 @@
     width: 1180px; height: inherit; margin: 0 auto;
     /* background-color: rgba(0, 0, 0, 0.5); */
 }
+
+/*Sub Page Layout */
+#sub_banner.hosting_bg {background: url(../img/server-bg1.png) repeat-x center top}
+#sub_banner.mail_bg {background: url(../img/mail-bg1.png) repeat-x center top}
+#sub_banner.service_bg {background: url(../img/service-bg1.png) repeat-x center top}
+#product_table {}
+#select2 {background-color: #1d7abd;}
+#select5 {background-color: #1d7abd;}
+#infor2 {}
 
 /* header */
 .header {overflow: hidden;}
@@ -86,7 +93,7 @@
 .infor {padding: 70px 0; text-align: center;}
 .infor h3 {font-size: 40px; padding-bottom: 20px; font-weight: 300;}
 .infor p {font-size: 18px; color: #666; padding-bottom: 50px;}
-.infor .infor_box {overflow: hidden; text-align-last: left; padding: 0 210px;}
+.infor .infor_box {overflow: hidden; text-align: left; padding: 0 210px;}
 .infor .infor_box h4 {font-size: 16px; color: #333; padding-bottom: 5px;}
 .infor .infor_box h4 i {color: #0081c8;}
 .infor .infor_box .ib_left {float: left; width: 50%; border-right: 1px solid #ccc; box-sizing: border-box;}
@@ -94,6 +101,25 @@
 .infor .infor_box .ib_left strong {font-size: 30px; color: #0081c8;}
 .infor .infor_box .ib_right {float: left; width: 50%; padding-left: 50px; box-sizing: border-box;}
 .infor .infor_box .ib_right li {font-size: 16px; color: #333;}
+
+/* infor 2 */
+.infor2 {padding: 70px 0; text-align: center;}
+.infor2 h3 {font-size: 40px; padding-bottom: 20px; font-weight: 300;}
+.infor2 .infor_btn {font-size: 16px; display: inline-block;  border: 1px solid #333; background-color: #fff; padding: 12px 42px; transition: background-color .3s ease;margin-bottom: 50px;}
+.infor2 .infor_btn:hover {background-color: #000; color: #fff;}
+.infor2 .infor_box {overflow: hidden; text-align: left; padding: 0 150px;}
+.infor2 .infor_box .ib_left {overflow: hidden; float: left; width: 50%;}
+.infor2 .infor_box .ib_left h4 {float: left; width: 110px; height: 80px; background-color: #1d7abd; border-radius: 50%; color: #fff; font-size: 16px; text-align: center; padding-top: 30px;}
+.infor2 .infor_box .ib_left ul {float: left; padding: 25px 0 0 20px;}
+.infor2 .infor_box .ib_left li {padding-bottom: 10px; font-size: 16px;}
+.infor2 .infor_box .ib_left li em {width: 160px; display: inline-block;}
+.infor2 .infor_box .ib_left li strong {color: #1d7abd;}
+.infor2 .infor_box .ib_right {float: left; width: 50%;}
+.infor2 .infor_box .ib_right h4 {float: left; width: 110px; height: 90px; background-color: #1d7abd; border-radius: 50%; color: #fff; font-size: 16px; text-align: center; padding-top: 20px;}
+.infor2 .infor_box .ib_right ul {float: left; padding: 25px 0 0 20px;}
+.infor2 .infor_box .ib_right li {padding-bottom: 10px; font-size: 16px;}
+.infor2 .infor_box .ib_right li em {width: 90px; display: inline-block;}
+.infor2 .infor_box .ib_right li strong {color: #1d7abd;}
 
 /* ad */
 .ad {position: relative; padding: 70px 0; text-align: center; z-index: 10;}
@@ -157,11 +183,6 @@
 .footer .family select {background-color: #fff; width: 145px; height: 44px; padding-left: 5px; margin-right: 5px;}
 .footer .family .family_btn {padding: 10px 15px 11px; border: 1px solid #cfd5da; font-size: 14px; color: #707070;}
 .footer .w3c {position: absolute; right: 0; top: 110px; text-align: right;}
-
-/* sub page */
-#sub_banner.hosting_bg {background: url(../img/server-bg1.png) repeat-x center top}
-#sub_banner.mail_bg {background: url(../img/mail-bg1.png) repeat-x center top}
-#sub_banner.service_bg {background: url(../img/service-bg1.png) repeat-x center top}
 
 /* sub_banner */
 .sub_banner {overflow: hidden; padding: 80px 0;}
