@@ -130,8 +130,8 @@ font-size: 20px; display: inline-block; text-align: center; line-height: 60px; m
 .blog .notice_wrap .nw_left > a.total {font-size: 14px;color: #999;}
 .blog .notice_wrap .nw_left ul {border-top: 2px solid #6f6f6f;}
 .blog .notice_wrap .nw_left li {overflow: hidden; padding: 20px 10px; border-bottom: 1px solid #e5e5e5;}
-.blog .notice_wrap .nw_left li a {float: left; color: #666; font-size: 14px;}
-.blog .notice_wrap .nw_left li span {float: right; color: #666; font-size: 14px; color: #999;}
+.blog .notice_wrap .nw_left li a {float: left; width: 80%; color: #666; font-size: 14px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.blog .notice_wrap .nw_left li span {float: right; width: 20%; text-align: right; font-size: 14px; color: #999;}
 .blog .notice_wrap .nw_right {float: right; width: 375px; height: 257px;}
 .blog .notice_wrap .nw_right h3 {font-size: 34px; margin-bottom: 20px;}
 .blog .notice_wrap .nw_right ul {border-top: 2px solid #6f6f6f; padding: 20px; border-bottom: 1px solid #e5e5e5; height: 145px;}
@@ -262,4 +262,12 @@ font-size: 20px; display: inline-block; text-align: center; line-height: 60px; m
     .select > div p br {display: none;}
     .select h3 {width: 100%; padding-left: 0;}
     .select h3 br {display: none; font-size: 20px;}
+
+    /* blog */
+    .blog .notice_wrap .nw_left li a {width: 75%;}
+    .blog .notice_wrap .nw_left li span {width: 25%;}
+    .blog .notice_wrap .nw_right ul {height: auto;}
+    .blog .notice_wrap .nw_right ul li {text-align: center;}
+    .blog .notice_wrap .nw_right ul li span {display: block; margin-right: 0; margin-bottom: 5px;}
+
 }
