@@ -5,7 +5,8 @@
 #sbanner {}
 #select {background-color: #1d7abd;}
 #infor {}
-#ad {}
+#ad {position: relative; background: url(../img/ad_bg.jpg) no-repeat center top; z-index: 1;
+    background-size: cover;}
 #blog {}
 #site {}
 #footer {}
@@ -106,6 +107,13 @@ font-size: 20px; display: inline-block; text-align: center; line-height: 60px; m
 .infor .infor_box .ib_right {float: left; width: 50%; padding-left: 50px; box-sizing: border-box;}
 .infor .infor_box .ib_right li {font-size: 16px; color: #333;}
 
+/* ad */
+.ad {position: relative; padding: 70px 0; text-align: center; z-index: 10;}
+.ad h3 {font-size: 40px; padding-bottom: 20px; color: #fff;}
+.ad p {font-size: 16px; color: #fff;}
+.ad .view {font-size: 16px; display: inline-block; margin-top: 50px; color: #fff; border: 1px solid #fff;background-color: transparent; padding: 12px 42px; transition: background-color .3s ease;}
+.ad .view:hover {background-color: #fff; color: #000;}
+
 
 /* MediaQuery ------------------------------------ */
 /* 화면 너비 0 ~ 1220px */
@@ -132,6 +140,10 @@ font-size: 20px; display: inline-block; text-align: center; line-height: 60px; m
     .infor .infor_box {padding: 0 20%; text-align: center;}
     .infor .infor_box .ib_left {width: 100%; padding-bottom: 5%; border-right: 0; border-bottom: 1px solid #ccc;}
     .infor .infor_box .ib_right {width: 100%; padding-left: 0; padding-top: 5%;}
+
+    /* ad */
+    .ad h3 {padding: 0 10% 5% 10%;}
+    .ad p {padding: 0 30%;}
 }
 
 /* 화면 너비 0 ~ 1024px */
@@ -163,11 +175,18 @@ font-size: 20px; display: inline-block; text-align: center; line-height: 60px; m
 
     /* infor */
     .infor {padding: 40px 0;}
-    .infor .infor_box {padding: 0;}
     .infor h3 {font-size: 24px;}
     .infor p {font-size: 14px; padding-bottom: 30px;}
+    .infor .infor_box {padding: 0;}
     .infor .infor_box .ib_left em {font-size: 18px;}
     .infor .infor_box .ib_left strong {font-size: 24px;}
+    
+    /* ad */
+    .ad {padding: 40px 0;}
+    .ad h3 {font-size: 24px; padding: 0 0 5% 0;}
+    .ad p {font-size: 14px; padding: 0; color: #999;}
+    .ad .view {padding: 7px 32px; margin-top: 30px;}
+
 }
 
 /* 화면 너비 0 ~ 600px */
