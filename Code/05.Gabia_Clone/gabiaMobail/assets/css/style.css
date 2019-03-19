@@ -138,6 +138,28 @@ font-size: 20px; display: inline-block; text-align: center; line-height: 60px; m
 .blog .notice_wrap .nw_right li {padding: 12px 0; color: #666; font-size: 16px;}
 .blog .notice_wrap .nw_right li span {background-color: #666; color: #fff; margin-right: 20px; padding: 5px 10px; font-size: 14px;}
 
+/* footer */
+.footer {padding: 50px 0; position: relative;}
+.footer .policy {padding-bottom: 30px;}
+.footer .policy li {position: relative; display: inline-block; padding: 0 20px 0 15px;}
+.footer .policy li:before {content: ''; width: 1px; height: 18px; background-color: #ccc;
+    position: absolute; right: 0; top: 3px;}
+.footer .policy li a {font-size: 16px;}
+.footer .policy li:first-child {padding-left: 0;}
+.footer .policy li:last-child::before {width: 0; height: 0;}
+.footer .policy li:last-child a {color: #1d7abd;}
+.footer .address {color: #666; font-size: 14px;}
+.footer .address li {padding-bottom: 5px;}
+.footer .address span {padding-right: 20px;}
+.footer .address p {padding: 20px 0;}
+.footer .icon {overflow: hidden;}
+.footer .icon li {float: left; padding-right: 20px;}
+.footer .icon li:last-child {padding-top: 10px;}
+.footer .family {position: absolute; right: 0; top: 50px;}
+.footer .family select {background-color: #fff; width: 145px; height: 44px; padding-left: 5px; margin-right: 5px;}
+.footer .family .family_btn {padding: 10px 15px 11px; border: 1px solid #cfd5da; font-size: 14px; color: #707070;}
+.footer .w3c {position: absolute; right: 0; top: 110px; text-align: right;}
+
 
 /* MediaQuery ------------------------------------ */
 /* 화면 너비 0 ~ 1220px */
@@ -193,6 +215,14 @@ font-size: 20px; display: inline-block; text-align: center; line-height: 60px; m
     /* blog */
     .blog .blog_wrap > div {width: 49%; margin-right: 2%; margin-bottom: 5%;}
     .blog .blog_wrap > div:nth-child(2n) {margin-right: 0;}
+
+    /* footer */
+    .footer {text-align: center;}
+    .footer .family {display: none;}
+    .footer .w3c {display: none;}
+    .footer .icon {display: inline-block; text-align: center;}
+    .footer .icon li:last-child {padding-right: 0;}
+
 }
 
 /* 화면 너비 0 ~ 768px */
@@ -249,6 +279,11 @@ font-size: 20px; display: inline-block; text-align: center; line-height: 60px; m
 
     /* blog */
     .blog .blog_wrap > div {width: 100%; margin-right: 0; margin-bottom: 5%;}
+
+    /* footer */
+    .footer .address span {display: block;}
+    .footer .icon {display: none;}
+
 }
 
 /* 화면 너비 0 ~ 400px */
