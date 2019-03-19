@@ -24,8 +24,8 @@ h1, h2, h3, h4, h5, h6 {font-size: 12px; font-weight: normal;}
 /* a 링크 초기화 */
 a {color: #333; text-decoration: none;}
 
-/* 이미지 초기화 */
-img {border: 0;}
+/* border 초기화 */
+img, fieldset {border: 0;}
 
 /* table 초기화 */
 table {width: 100%; border-spacing: 0; border-collapse: collapse;}

@@ -8,9 +8,9 @@
     <meta name="author" content="Duveloper">
     <meta name="description" content="Gabia 클론 코딩">
     <meta name="keywords" content="사이트만들기, 기업사이트, 가비아, 따라하기">
-    <title>Gabia Clone Coding</title>
+    <title>Gabia Resopnsive Clone Coding</title>
 
-    <!-- Style -->
+    <!-- style -->
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/slick.css">
@@ -18,29 +18,41 @@
 
     <!-- font -->
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+    <!-- html5shiv -->
+    <script src="assets/js/html5shiv.js"></script>
+
+    <!-- ie checker -->
+    <script src="assets/js/ie-checker.js"></script>
+
+    <!--[If IE 8]>
+    <script type="text/javascript">
+        alert("Please Upgrade Your BROWSER !");
+    </script>
+    <![endif]-->
 </head>
 
 <body>
 
     <div class="skip">
+        <a href="#search">검색</a>
         <a href="#blog">블로그</a>
         <a href="#site">사이트맵</a>
     </div>
     <!-- //skip -->
 
-    <div id="wrap">
-        <header id="header">
-            <h1 class="ir_su">제목</h1>
-            <div class="container">
+    <header id="header">
+        <div class="container">
+            <div class="row">
                 <div class="header">
-                    <h1><a href="index.html"><img src="assets/img/logo.png" alt="Gabia"></a></h1>
+                    <h1><a href="../gabia/index.html"><img src="assets/img/logo.png" alt="가비아"></a></h1>
                     <nav class="gnb">
                         <ul>
-                            <li><a href="../gabiaMobail/index.html">반응형 사이트</a></li>
-                            <li><a href="cloud/service.html">클라우드</a></li>
-                            <li><a href="idc/hosting.html">IDC</a></li>
+                            <li><a href="../gabia/index.html">웹 표준 사이트</a></li>
+                            <li><a href="#">클라우드</a></li>
+                            <li><a href="#">IDC</a></li>
                             <li><a href="#">호스팅</a></li>
-                            <li><a href="mail/mail.html">메일/그룹웹어</a></li>
+                            <li><a href="#">메일/그룹웹어</a></li>
                             <li><a href="#">쇼핑몰</a></li>
                             <li><a href="#">보안</a></li>
                         </ul>
@@ -51,50 +63,80 @@
                         <li><a href="">My Gabia</a></li>
                         <li><a href="">고객센터</a></li>
                     </ul>
+                    <div class="mGnb">
+                        <div class="bar_wrap">
+                            <div class="bar one"></div>
+                            <div class="bar two"></div>
+                            <div class="bar three"></div>
+                        </div>
+                    </div>
+                    <div class="search">
+                        <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                    </div>
                 </div>
             </div>
-        </header>
-        <!-- //header -->
+        </div>
+    </header>
+    <!-- //header -->
 
-        <main>
-            <section id="banner">
-                <div class="banner_img1">
-                    <div class="container">
-                        <div class="banner">
-                            <h2>신청 즉시 사용하는<br>1분 설치 서버</h2>
-                            <p>고성능 SSD 서버를 할인된 금액으로 만나볼 수 있는 기회!<br>선착순 20대, 서두르세요!</p>
-                            <em>HP DL60v3 SSD 20% 할인</em>
-                            <a href="#" class="view">자세히 보기</a>
-                        </div>
-                    </div>
+    <section id="banner">
+        <div class="banner_img1">
+            <div class="container">
+                <div class="banner">
+                    <h2>신청 즉시 사용하는<br>1분 설치 서버</h2>
+                    <p>고성능 SSD 서버를 할인된 금액으로 만나볼 수 있는 기회!<br>선착순 20대, 서두르세요!</p>
+                    <em>HP DL60v3 SSD 20% 할인</em>
+                    <a href="#" class="view">자세히 보기</a>
                 </div>
-                <div class="banner_img2">
-                    <div class="container">
-                        <div class="banner">
-                            <h2>신청 즉시 사용하는<br>1분 설치 서버</h2>
-                            <p>고성능 SSD 서버를 할인된 금액으로 만나볼 수 있는 기회!<br>선착순 20대, 서두르세요!</p>
-                            <em>HP DL60v3 SSD 20% 할인</em>
-                            <a href="#" class="view">자세히 보기</a>
-                        </div>
-                    </div>
+            </div>
+        </div>
+        <div class="banner_img2">
+            <div class="container">
+                <div class="banner">
+                    <h2>신청 즉시 사용하는<br>1분 설치 서버</h2>
+                    <p>고성능 SSD 서버를 할인된 금액으로 만나볼 수 있는 기회!<br>선착순 20대, 서두르세요!</p>
+                    <em>HP DL60v3 SSD 20% 할인</em>
+                    <a href="#" class="view">자세히 보기</a>
                 </div>
-                <div class="banner_img3">
-                    <div class="container">
-                        <div class="banner">
-                            <h2>신청 즉시 사용하는<br>1분 설치 서버</h2>
-                            <p>고성능 SSD 서버를 할인된 금액으로 만나볼 수 있는 기회!<br>선착순 20대, 서두르세요!</p>
-                            <em>HP DL60v3 SSD 20% 할인</em>
-                            <a href="#" class="view">자세히 보기</a>
-                        </div>
-                    </div>
+            </div>
+        </div>
+        <div class="banner_img3">
+            <div class="container">
+                <div class="banner">
+                    <h2>신청 즉시 사용하는<br>1분 설치 서버</h2>
+                    <p>고성능 SSD 서버를 할인된 금액으로 만나볼 수 있는 기회!<br>선착순 20대, 서두르세요!</p>
+                    <em>HP DL60v3 SSD 20% 할인</em>
+                    <a href="#" class="view">자세히 보기</a>
                 </div>
-            </section>
-            <!-- //banner -->
+            </div>
+        </div>
+    </section>
+    <!-- //banner -->
 
-            <section id="sbanner">
-                <div class="container">
+    <section id="search_domain">
+        <h2 class="ir_su">도메인 검색</h2>
+        <div class="container">
+            <div class="search_domain">
+                <form method="POST">
+                    <fieldset>
+                        <legend class="ir_su">도메인  검색 영역</legend>
+                        <span>www.</span>
+                        <input type="text" name="domain" id="domain" class="input_text" title="도메인을 입력하세요." placeholder="원하는 도메인을 입력하세요.">
+                        <label for="domain"><a href="#"><i class="fa fa-search" aria-hidden="true"></i> 검색</a></label>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- //search -->
+
+    <main>
+
+        <section id="sbanner">
+            <h3 class="ir_su">호스팅 보안, 리셀러, 로그인 정보</h3>
+            <div class="container">
+                <div class="row">
                     <div class="sbanner">
-                        <h3 class="ir_su">호스팅 보안, 리셀러, 로그인 정보</h3>
                         <div>
                             <a href="#" target="_blank" title="새창">
                                 <h4>호스팅 보안 <i class="fa fa-angle-right" aria-hidden="true"></i></h4>
@@ -121,11 +163,13 @@
                         </div>
                     </div>
                 </div>
-            </section>
-            <!-- //sbanner -->
+            </div>
+        </section>
+        <!-- //sbanner -->
 
-            <section id="select">
-                <div class="container">
+        <section id="select">
+            <div class="container">
+               <div class="row">
                     <div class="select">
                         <h3><strong>가비아</strong>를<br> 선택하는<br> 이유입니다.</h3>
                         <div class="simg1">
@@ -141,12 +185,14 @@
                             <p>전문 엔지니어가<br> 365일 24시간 IDC에 상주하며<br> 이슈에 실시간 대응합니다.</p>
                         </div>
                     </div>
-                </div>
-            </section>
-            <!-- //select -->
+               </div>
+            </div>
+        </section>
+        <!-- //select -->
 
-            <section id="infor">
-                <div class="container">
+        <section id="infor">
+            <div class="container">
+                <div class="row">
                     <div class="infor">
                         <h3>도움이 필요하신가요?<br>빠르고 정확하게 해결해 드리겠습니다.</h3>
                         <p>가비아 고객센터는 IT 비지니스 전문가들로만 운영되고 있습니다.<br>
@@ -171,52 +217,60 @@
                         </div>
                     </div>
                 </div>
-            </section>
-            <!-- //infor -->
+            </div>
+        </section>
+        <!-- //infor -->
 
-            <section id="ad">
-                <div class="container">
+        <section id="ad">
+            <div class="container">
+                <div class="row">
                     <div class="ad">
                         <h3>웹호스팅/도메인 무료 혜택부터 다양한 프리미엄 템플릿까지!<br>
                             나에게 딱 맞는 홈페이지를 제작해보세요</h3>
-                            <p>더 이상 홈페이지 제작 때문에 고민하지 마세요!<br>
-                                    전문 디자이너가 제작한 다양한 프리미엄 템플릿으로 특성에 맞는 홈페이지를 간편하게 제작할 수 있습니다.<br>
-                                    합리적인 가격으로 홈페이지 제작은 물론, 호스팅/도메인 1년 무료 혜택도 받아보세요.</p>
-                            <a href="#" title="새창" class="view">자세히 보기</a>
+                        <p>더 이상 홈페이지 제작 때문에 고민하지 마세요!<br>
+                            전문 디자이너가 제작한 다양한 프리미엄 템플릿으로 특성에 맞는 홈페이지를 간편하게 제작할 수 있습니다.<br>
+                            합리적인 가격으로 홈페이지 제작은 물론, 호스팅/도메인 1년 무료 혜택도 받아보세요.</p>
+                        <a href="#" title="새창" class="view">자세히 보기</a>
                     </div>
                 </div>
-            </section>
-            <!-- //ad -->
+            </div>
+        </section>
+        <!-- //ad -->
 
-            <section id="blog">
-                <div class="container">
+        <section id="blog">
+            <div class="container">
+                <div class="row">
                     <div class="blog">
                         <h3>라이브러리 블로그</h3>
                         <div class="blog_wrap">
                             <div>
                                 <h4>기업의 보안 수준, 어떻게 높일까?</h4>
-                                <p>기업의 보안 상태를 점검하기 보안 수준을 향상시기 위해서는 크게 두 가지 측면을 고려해야합니다. 기업의 내부 보안과 기업이 고객에서 서비스하는 부분에 대한 보안입니다. 이업 내부....</p>
+                                <p>기업의 보안 상태를 점검하기 보안 수준을 향상시기 위해서는 크게 두 가지 측면을 고려해야합니다. 기업의 내부 보안과 기업이 고객에서 서비스하는 부분에 대한 보안입니다. 이업
+                                    내부....</p>
                                 <figure>
                                     <img src="assets/img/blog-bg1.jpg" alt="기업의 보안 수준과 관련된 이미지">
                                 </figure>
                             </div>
                             <div>
                                 <h4>웹사이트에 주고 받는 정보는 어떻게 보호될까?</h4>
-                                <p>기업의 보안 상태를 점검하기 보안 수준을 향상시기 위해서는 크게 두 가지 측면을 고려해야합니다. 기업의 내부 보안과 기업이 고객에서 서비스하는 부분에 대한 보안입니다. 이업 내부....</p>
+                                <p>기업의 보안 상태를 점검하기 보안 수준을 향상시기 위해서는 크게 두 가지 측면을 고려해야합니다. 기업의 내부 보안과 기업이 고객에서 서비스하는 부분에 대한 보안입니다. 이업
+                                    내부....</p>
                                 <figure>
                                     <img src="assets/img/blog-bg2.jpg" alt="">
                                 </figure>
                             </div>
                             <div>
                                 <h4>CPU취약점 종합보고서 클라우드 사업장</h4>
-                                <p>기업의 보안 상태를 점검하기 보안 수준을 향상시기 위해서는 크게 두 가지 측면을 고려해야합니다. 기업의 내부 보안과 기업이 고객에서 서비스하는 부분에 대한 보안입니다. 이업 내부....</p>
+                                <p>기업의 보안 상태를 점검하기 보안 수준을 향상시기 위해서는 크게 두 가지 측면을 고려해야합니다. 기업의 내부 보안과 기업이 고객에서 서비스하는 부분에 대한 보안입니다. 이업
+                                    내부....</p>
                                 <figure>
                                     <img src="assets/img/blog-bg3.jpg" alt="">
                                 </figure>
                             </div>
                             <div>
                                 <h4>리눅스에서 사용하는 플랫폼은 어떻게 사용할까?</h4>
-                                <p>기업의 보안 상태를 점검하기 보안 수준을 향상시기 위해서는 크게 두 가지 측면을 고려해야합니다. 기업의 내부 보안과 기업이 고객에서 서비스하는 부분에 대한 보안입니다. 이업 내부....</p>
+                                <p>기업의 보안 상태를 점검하기 보안 수준을 향상시기 위해서는 크게 두 가지 측면을 고려해야합니다. 기업의 내부 보안과 기업이 고객에서 서비스하는 부분에 대한 보안입니다. 이업
+                                    내부....</p>
                                 <figure>
                                     <img src="assets/img/blog-bg4.jpg" alt="">
                                 </figure>
@@ -233,7 +287,7 @@
                                 </ul>
                             </div>
                             <div class="nw_right">
-                                <h3>네임서버</h3> 
+                                <h3>네임서버</h3>
                                 <ul>
                                     <li><span>1차</span>ns.gabia.co.kr - 211.234.118.50</li>
                                     <li><span>2차</span>ns1.gabia.co.kr - 121.78.117.39</li>
@@ -243,107 +297,17 @@
                         </div>
                     </div>
                 </div>
-            </section>
-            <!-- //blog -->
+            </div>
+        </section>
+        <!-- //blog -->
 
-            <section id="site">
-                <h3 class="ir_su">사이트 전체메뉴</h3>
-                <div class="container">
-                    <div class="site">
-                        <div>
-                            <h4>도메인 등록</h4>
-                            <ul>
-                                <li><a href="#">도메인 검색</a></li>
-                                <li><a href="#">예약</a></li>
-                                <li><a href="#">구매대행</a></li>
-                                <li><a href="#">기관 이전</a></li>
-                                <li><a href="#">부가서비스</a></li>
-                                <li><a href="#">도메인 정보</a></li>
-                                <li><a href="#">오늘의 도메인</a></li>
-                            </ul>
-                        </div>
-                        <div class="two">
-                            <h4>클라우드</h4>
-                            <ul>
-                                <li><a href="#">개인/기업용 서버</a></li>
-                                <li><a href="#">웹방화벽</a></li>
-                                <li><a href="#">개인/기업용 서버</a></li>
-                                <li><a href="#">공공 기관용 전용</a></li>
-                                <li><a href="#">스냅샷/이미지</a></li>
-                                <li><a href="#">오토스케일링</a></li>
-                                <li><a href="#">NAS</a></li>
-                                <li><a href="#">개인/기업용 서버</a></li>
-                                <li><a href="#">공공 기관용 전용</a></li>
-                                <li><a href="#">스냅샷/이미지</a></li>
-                                <li><a href="#">오토스케일링</a></li>
-                                <li><a href="#">NAS</a></li>
-                                <li><a href="#">스냅샷/이미지</a></li>
-                                <li><a href="#">오토스케일링</a></li>
-                                <li><a href="#">NAS</a></li>
-                                <li><a href="#">개인/기업용 서버</a></li>
-                                <li><a href="#">공공 기관용 전용</a></li>
-                                <li><a href="#">스냅샷/이미지</a></li>
-                                <li><a href="#">오토스케일링</a></li>
-                                <li><a href="#">NAS</a></li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h4>IDC</h4>
-                            <ul>
-                                <li><a href="#">개인/기업용 서버</a></li>
-                                <li><a href="#">웹방화벽</a></li>
-                                <li><a href="#">개인/기업용 서버</a></li>
-                                <li><a href="#">공공 기관용 전용</a></li>
-                                <li><a href="#">스냅샷/이미지</a></li>
-                                <li><a href="#">오토스케일링</a></li>
-                                <li><a href="#">NAS</a></li>
-                                <li><a href="#">개인/기업용 서버</a></li>
-                                <li><a href="#">공공 기관용 전용</a></li>
-                                <li><a href="#">스냅샷/이미지</a></li>
-                                <li><a href="#">오토스케일링</a></li>
-                                <li><a href="#">NAS</a></li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h4>호스팅</h4>
-                            <ul>
-                                <li><a href="#">웹호스팅</a></li>
-                                <li><a href="#">웹에이전시호스팅</a></li>
-                                <li><a href="#">워드프레스호스팅</a></li>
-                                <li><a href="#">공공 기관용 전용</a></li>
-                                <li><a href="#">VPS호스팅</a></li>
-                                <li><a href="#">1분설치</a></li>
-                                <li><a href="#">SMS호스팅</a></li>
-                                <li><a href="#">이미지호스팅</a></li>
-                                <li><a href="#">동영상호스팅</a></li>
-                                <li><a href="#">SSL호스팅</a></li>
-                                <li><a href="#">이전 대행</a></li>
-                                <li><a href="#">간편 제작</a></li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h4>메일/그룹웨어</h4>
-                            <ul>
-                                <li><a href="#">메일</a></li>
-                                <li><a href="#">전자결재</a></li>
-                                <li><a href="#">엔터프라이즈</a></li>
-                                <li><a href="#">SMS호스팅</a></li>
-                                <li><a href="#">오피스365</a></li>
-                                <li><a href="#">이전 대행</a></li>
-                                <li><a href="#">간편 제작</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- //site -->
+    </main>
+    <!-- //main -->
 
-        </main>
-        <!-- //main -->
-
-        <footer id="footer">
-            <h3 class="ir_su">푸터 정보</h3>
-            <div class="container">
+    <footer id="footer">
+        <h3 class="ir_su">푸터 정보</h3>
+        <div class="container">
+            <div class="row">
                 <div class="footer">
                     <ul class="policy">
                         <li><a href="#">약관</a></li>
@@ -376,16 +340,16 @@
                         <button type="button" class="family_btn">바로가기</button>
                     </div>
                     <div class="w3c">
-                        <!-- <a href="http://validator.kldp.org/check?uri=referer"
-                                            onclick="this.href=this.href.replace(/referer$/,encodeURIComponent(document.URL))"><img
-                                                src="//validator.kldp.org/w3cimgs/validate/html5-blue.png" alt="Valid HTML 5" height="15" width="80"></a> -->
+                            <!-- <a href="http://validator.kldp.org/check?uri=referer"
+                            onclick="this.href=this.href.replace(/referer$/,encodeURIComponent(document.URL))"><img
+                            src="//validator.kldp.org/w3cimgs/validate/html5-blue.png" alt="Valid HTML 5" height="15" width="80"></a> -->
                         <a href="http://jigsaw.w3.org/css-validator/check/referer">
                             <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss"
                                 alt="올바른 CSS입니다!" />
                         </a>
                         <a href="http://jigsaw.w3.org/css-validator/check/referer">
-                            <img style="border:0;width:88px;height:31px"
-                                src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="올바른 CSS입니다!" />
+                            <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                                alt="올바른 CSS입니다!" />
                         </a>
                         <p>CrossBrowsing<br>ie8/ie9/ie10/ie11/edge
                             <br>chrome/opera/sapari/firefox/whale
@@ -393,18 +357,16 @@
                     </div>
                 </div>
             </div>
-        </footer>
-        <!-- //footer -->
-    </div>
-    <!-- //wrap -->
-
+        </div>
+    </footer>
+    <!-- //footer -->
+            
     <!-- script -->
     <script src="assets/js/jquery.min_1.12.4.js"></script>
     <script src="assets/js/slick.min.js"></script>
     <script>
         $(document).ready(function () {
             $('#banner').slick({
-                autoplay : true,
                 autoplaySpeed : 5000,
                 dots : true
             });
