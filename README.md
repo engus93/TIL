@@ -6,7 +6,14 @@
 
 ### [프로젝트 보러 가기](https://github.com/engus93/engus93.github.io)
 
----
+> ### [Mybrary - Android](https://github.com/engus93/android_portfolio_mybrary/)
+> ### [EveryBusking](https://github.com/engus93/php_portfolio_everybusking/)
+> ### [Momonto](https://github.com/engus93/engus93.github.io/)
+> ### [ReactJS Movie App](https://github.com/engus93/ReactJS_Movie_App/)
+> ### [Web Standard](https://github.com/engus93/webStandard_basic/)
+> ### [Responsive Web](https://engus93.github.io/responsiveWebBasic/)
+> ### [Gabia Clone Web](https://github.com/engus93/gaibaCloneWeb/)
+
 
 ## [용어 & 개념 정리](HandBook/README.md)
 
@@ -19,15 +26,19 @@
 > ### SPA
 > ### TDD
 > ### Methodology
+> ### Web Standard
+> ### AWS
  
 ## [코딩 정리](Code/README.md)
 > ### VanillaScript
 > ### ReactJS Basic
 > ### Web Standard
 > ### Responsive Web
+> ### Gabia Clone
 
 ## PPT 발표 자료
 
 > ### [01. SPA & MPA](https://docs.google.com/presentation/d/1C1C0rFBdZA1elzCru_7F26fzOHHDTgbxIZKANe7bGSc/edit?usp=sharing)
 > ### [02. Web Design & Semantic](https://docs.google.com/presentation/d/1VfhHuRTBzVNfWJG_eQmXDqvSZ0AEiXMdqEWVNfYafYI/edit?usp=sharing)
 > ### [03. Web Standard](https://docs.google.com/presentation/d/1rEkL7xeXF305zfKGlV6NfUGEdrwaX3-YewJESeH2T3s/edit?usp=sharing)
+> ### [04. AWS & Cloud Computing](https://docs.google.com/presentation/d/11T85ym5Uzf0sfLkDCRgLtVtja5IvF-QGJVPsl3xIWcg/edit?usp=sharing)
