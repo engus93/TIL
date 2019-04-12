@@ -22,7 +22,7 @@
 >
 > ### [07. Gabia Clone Web](https://github.com/engus93/gabiaCloneWeb)
 
-## [용어 & 개념 정리](HandBook/README.md)
+## [용어 & 개념 정리](Document/README.md)
 
 > ### HTML
 >
