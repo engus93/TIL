@@ -21,6 +21,8 @@
 > ### [06. Responsive Web](https://github.com/engus93/responsiveWebBasic/)
 >
 > ### [07. Gabia Clone Web](https://github.com/engus93/gabiaCloneWeb)
+>
+> ### [08. WeTube - YouTube Clone Web](https://github.com/engus93/Wetube_clone)
 
 ## [용어 & 개념 정리](Document/README.md)
 
