@@ -65,6 +65,8 @@
 > ##### Web Standard
 >
 > ##### AWS
+>
+> ##### Redux
 
 ## PPT 발표 자료
 
